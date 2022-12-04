@@ -1,40 +1,33 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-        int n=height.size();   
-        int Left[n];
-        //   
-          Left[0]=height[0];
+        
+        int n=height.size();
+        //creating maxL
+        int maxL[n];
+        maxL[0]=height[0];
         for(int i=1;i<n;i++)
         {
-            // Left.push_back(max(Left[i-1],height[i]));  
-            Left[i]=max(Left[i-1],height[i]);  
+            maxL[i]=max(maxL[i-1],height[i]);
         }
-          
-          int Right[n];
-        // vector<int> Right;
-          Right[n-1]=height[n-1];
+        //creating maxR
+        int maxR[n];
+        maxR[n-1]=height[n-1];
         for(int i=n-2;i>=0;i--)
         {
-            Right[i]=max(Right[i+1],height[i]);
+            maxR[i]=max(maxR[i+1],height[i]);
         }
-        
-        vector<int> Diff;
+        int weight[n];
         for(int i=0;i<n;i++)
         {
-            Diff.push_back(min(Right[i],Left[i]));
-        }
-        vector<int> Ans;
-        for(int i=0;i<n;i++)
-        {
-            Ans.push_back(Diff[i]-height[i]);
+            weight[i]=min(maxL[i],maxR[i])-height[i];
         }
         int sum=0;
         for(int i=0;i<n;i++)
         {
-            sum+=Ans[i];
+            sum+=weight[i];
         }
         return sum;
-        
     }
+    
 };
