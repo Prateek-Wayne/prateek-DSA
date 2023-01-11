@@ -1,39 +1,53 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& arr, int target) {
-        vector<int> v={-1,-1};
-        int low=0;
-        int high=arr.size()-1;
-        while(low<=high)
+    int firstOcurence(vector<int>& arr, int target)
+    {
+        int start=0;
+        int end=arr.size()-1;
+        int res=-1;
+        while(start<=end)
         {
-            int mid=(low+high)/2;
-            if(arr[mid]==target)
-            {
-                v[0]=mid;
-                high=mid-1;
-            }
-            else if(arr[mid]>target)
-                high=mid-1;
+            int mid=start+(end-start)/2;
+            if(target==arr[mid])
+                {
+                    res=mid;
+                    end=mid-1;
+                }
+            else if(target<arr[mid])
+                end=mid-1;
             else
-                low=mid+1;
-            
+                start=mid+1;
         }
-          low=0;
-         high=arr.size()-1;
-        while(low<=high)
+        return res;
+
+    }
+    int lastOcurence(vector<int>& arr, int target)
+    {
+        int start=0;
+        int end=arr.size()-1;
+        int res=-1;
+        while(start<=end)
         {
-            int mid=(low+high)/2;
-            if(arr[mid]==target)
-            {
-                v[1]=mid;
-                low=mid+1;
-            }
-            else if(arr[mid]>target)
-                high=mid-1;
+            int mid=start+(end-start)/2;
+            if(target==arr[mid])
+                {
+                    res=mid;
+                    start=mid+1;
+                }
+            else if(target<arr[mid])
+                end=mid-1;
             else
-                low=mid+1;
-            
+                start=mid+1;
         }
-        return v;
+        return res;
+
+    }
+    vector<int> searchRange(vector<int>& nums, int target) {
+         vector<int> v;
+         int first=firstOcurence(nums,target);
+         int last=lastOcurence(nums,target);
+         v.push_back(first);
+         v.push_back(last);
+         return v;
     }
 };
