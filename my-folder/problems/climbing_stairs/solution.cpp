@@ -1,20 +1,21 @@
 class Solution {
 public:
-   int calc(int n,vector<int> &dp)
-    {
-        if(n<0)
-            return 0;
-        if(n==0 || n==1)
-            return 1;
+    int climbStairsRec(int n,vector<int> &dp) {
+        // base condition....
+        if(n==0||n==1)
+        {
+            return dp[n]=1;
+        }
         if(dp[n]!=-1)
             return dp[n];
-        int left = calc(n-1,dp);
-        int right = calc(n-2,dp);
-        return dp[n] = left + right;
+        return dp[n]=climbStairsRec(n-1,dp)+climbStairsRec(n-2,dp);
         
     }
+
     int climbStairs(int n) {
+        // base condition....
         vector<int> dp(n+1,-1);
-        return calc(n,dp);
+        return climbStairsRec(n,dp);
+        
     }
 };
