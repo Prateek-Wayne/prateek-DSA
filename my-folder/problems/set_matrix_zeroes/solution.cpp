@@ -1,31 +1,38 @@
 class Solution {
 public:
-    void setZeroes(vector<vector<int>>& matrix) {
-        
-        vector<int> x,y;
-        int n=matrix.size();
-        int m=matrix[0].size();
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<m;j++)
-            {
-                if(matrix[i][j]==0)
-                    {
-                        x.push_back(i);
-                        y.push_back(j);
-                    }
-                
+void setZeroes(std::vector<std::vector<int>>& matrix) {
+    std::vector<std::vector<int>> store;
+
+    // Collect positions of zeroes
+    for (int i = 0; i < matrix.size(); i++) {
+        for (int j = 0; j < matrix[i].size(); j++) {
+            if (matrix[i][j] == 0) {
+                store.push_back({i, j});
             }
-        }  
-        for(auto r:x)
-        {
-            for(int i=0;i<m;i++)
-                matrix[r][i]=0;
-        }
-        for(auto c:y)
-        {
-            for(int i=0;i<n;i++)
-                matrix[i][c]=0;
         }
     }
+    for(auto i:store)
+    {   // row 
+        int row=i[0];
+        for(int j=0;j<matrix[row].size();j++)
+        {
+            matrix[row][j]=0;
+        }
+        //columns 
+        int col=i[1];
+for(int j=0;j<matrix.size();j++)
+{
+    matrix[j][col]=0;
+}
+    }
+
+    // for(auto i:matrix)
+    // {
+    //     for(auto j:i)
+    //     {
+    //         cout<<j<<"|";
+    //     }
+    //     cout<<endl;
+    // }
+}
 };
