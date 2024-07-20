@@ -1,14 +1,13 @@
 class Solution {
 public:
     int maxProfit(vector<int>& arr) {
-        int miny=arr[0];
+        int profit=arr[0];
         int diff=0;
-        for(int i=1;i<arr.size();i++)
+        for(int i=0;i<arr.size();i++)
         {
-            miny=min(miny,arr[i]);
-            diff=max(diff,arr[i]-miny);
+            profit=min(profit,arr[i]);
+            diff=max(diff,arr[i]-profit);
         }
         return diff;
-        
     }
 };
