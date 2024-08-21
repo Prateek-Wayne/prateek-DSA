@@ -1,21 +1,17 @@
-name: Sync Leetcode
-
-on:
+name: LeetSyncMaster
+on: 
   workflow_dispatch:
   schedule:
-    - cron: "0 8 * * 6"
-
+      - cron: '0 0 * * *'  # Run the workflow daily at midnight
 jobs:
-  build:
+  leetcode:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Sync
-        uses: joshcai/leetcode-sync@v1.5
+      - uses: actions/checkout@v4
+      - run: echo "Success Step 1 🤡"      
+      - name: Run LeetSyncMaster
+        uses: ./code
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: my-folder
-          verbose: true
-          commit-header: '[LeetCode Sync]'
+          GITHUB_TOKEN: ${{ github.token }}
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
