@@ -11,6 +11,7 @@ import leetcode_query
 
 
 def parse_git_log():
+    print('Inside the parse_git_log  📡:')
     commits = dict()
     for commit in Repo(os.getcwd()).iter_commits():
         if commit.message not in commits:
@@ -20,6 +21,7 @@ def parse_git_log():
 
 
 def scrape_leetcode():
+    print('Inside the scrape_leetcode  📡:')
     session = requests.Session()
     session.cookies.set("LEETCODE_SESSION", os.environ.get("LEETCODE_SESSION"), domain="leetcode.com")
     session.cookies.set("csrftoken", os.environ.get("LEETCODE_CSRF_TOKEN"), domain="leetcode.com")
@@ -68,6 +70,7 @@ def scrape_leetcode():
 
 
 def update_readme(submissions):
+    print('Inside the update_readme  📡:')
     template = """
 # LeetCode Submissions
 
@@ -89,6 +92,7 @@ def update_readme(submissions):
 
 
 def sync_github(commits, submissions):
+    print('Inside the sync_github  📡:')
     repo = Repo(os.getcwd())
     url = urllib.parse.urlparse(repo.remote("origin").url)
     url = url._replace(netloc=f"{os.environ.get('GITHUB_TOKEN')}@" + url.netloc)
@@ -158,6 +162,7 @@ def sync_github(commits, submissions):
 
 
 def main():
+    print('Inside the main()  📡:')
     commits = parse_git_log()
     submissions = scrape_leetcode()
     sync_github(commits, submissions)
