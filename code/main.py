@@ -28,12 +28,13 @@ def scrape_leetcode():
 
     solved_problems = list()
     all_problems = session.get("https://leetcode.com/api/problems/all/").json()
+    print(f'Inside the all_problem 📡: {all_problems}')
     for problem in all_problems["stat_status_pairs"]:
         if problem["status"] == "ac":
             time.sleep(1)
 
             title_slug = problem["stat"]["question__title_slug"]
-            print('Inside the TITLE SLUG 📡:'+title_slug)
+            print(f'Inside the TITLE SLUG 📡:${title_slug}')
             headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36",
                 "Connection": "keep-alive",
