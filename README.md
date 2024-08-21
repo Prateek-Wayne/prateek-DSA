@@ -20,3 +20,15 @@ the code.
 ![random image](https://random.imagecdn.app/500/400)
    
 # Good luck 🙏
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
