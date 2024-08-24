@@ -2,6 +2,8 @@
     "files.associations": {
         "vector": "cpp",
         "iosfwd": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "map": "cpp",
+        "set": "cpp"
     }
 }

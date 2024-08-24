@@ -8,16 +8,16 @@ void mergeIng(vector<int>& arr,int low,int mid,int high)
     int left=low;
     int right=mid+1;
     vector<int> temp;
-    // int left2=low;
-    // int right2=mid+1;
-    // for(int i=left2;i<=mid;i++)
-    // {
-    //     while(right2<=high && arr[left2]>2*arr[right2])
-    //     {
-    //         right2++;
-    //     }
-    //     reversePairCount+=right2-(mid+1);
-    // }
+    int left2=low;
+    int right2=mid+1;
+    for(int i=left2;i<=mid;i++)
+    {
+        while(right2<=high && arr[i]>2*arr[right2])
+        {
+            right2++;
+        }
+        reversePairCount+=right2-(mid+1);
+    }
      while (left<=mid && right<=high)
      {
         if(arr[left]<=arr[right])
@@ -43,18 +43,18 @@ void mergeIng(vector<int>& arr,int low,int mid,int high)
 
 }
 
-void countPairs(vector<int> &arr,int low,int mid,int high)
-{
-    int left=low;
-    int right=mid+1;
-    for(int i=low;i<=mid;i++)
-    {
-        while(right<=high && arr[left]> 2*arr[right])
-            right++;
-        reversePairCount+=(right-(mid+1));
-    }
+// void countPairs(vector<int> &arr,int low,int mid,int high)
+// {
+//     int left=low;
+//     int right=mid+1;
+//     for(int i=low;i<=mid;i++)
+//     {
+//         while(right<=high && arr[i]> 2*arr[right])
+//             right++;
+//         reversePairCount+=(right-(mid+1));
+//     }
 
-}
+// }
 
 void mergeSort(vector<int>& arr,int low,int high)
 {   
@@ -63,7 +63,7 @@ void mergeSort(vector<int>& arr,int low,int high)
     int mid=low+(high-low)/2;
     mergeSort(arr,low,mid);
     mergeSort(arr,mid+1,high);
-    countPairs(arr,low,mid,high);
+    // countPairs(arr,low,mid,high);
     mergeIng(arr,low,mid,high);
 }
 
@@ -76,7 +76,8 @@ int main()
 {   
     // long long arr[] = {10, 9, 8, -4, -1, 5, 4, 3, 2, 1};
     // vector<int> arr={1,3,2,3,1};
-    vector<int> arr={2,4,3,5,1};
+    // vector<int> arr={2,4,3,5,1};
+    vector<int> arr={2147483647,2147483647,2147483647,2147483647,2147483647,2147483647};
     
     mergeSort(arr, 0, arr.size()-1);
 
