@@ -1,46 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void subarraySum(vector<int> &arr, int k){
+/*
+Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
 
-    int ans=0;
-    int curr_sum=0;
-    int left=0;
-    int right=0;
-    while(right<arr.size())
+A subarray is a contiguous non-empty sequence of elements within an array.
+*/
+
+void subarraySum(vector<int> &arr, int k) {
+   int curr_sum=0;int ans=0;
+   int n=arr.size();
+   map<int,int> mp;
+   mp[0]=1;
+   for(int i=0;i<n;i++)
+   {
+    curr_sum+=arr[i];
+    auto iter=mp.find(curr_sum-k);
+    if(iter!=mp.end())
     {
-        curr_sum+=arr[right];
-        cout<<"Current Sum for index :"<<right<<"|"<<curr_sum<<endl;
-        if(curr_sum<k)
-        {   
-            right++;
-        }
-        else if(curr_sum==k)
-        {
-            ans+=1;
-            right++;
-        }
-        else if(curr_sum>k)
-        {   
-            while(curr_sum>k)
-            {
-               
-            curr_sum-=arr[left];
-            left++;
-             if(curr_sum==k)
-                {
-                    ans++;
-                    right++;
-                    break;
-                }
-
-            }
-        }
+        ans+=iter->second;
     }
-    cout<<"Count"<<ans;
+    mp[curr_sum]++;
+   }
+   cout<<"ans"<< ans;
+   //    return ans;
 }
-int main(){
-    vector<int> arr ={1};
-    subarraySum(arr,0);
 
+int main() {
+    vector<int> nums = {1, -1,0};
+    int k = 0;
+    subarraySum(nums, k);
+    return 0;
 }
