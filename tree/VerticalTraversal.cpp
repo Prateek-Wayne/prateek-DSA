@@ -1,61 +1,82 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct TreeNode
+struct Node
 {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    int data;
+    struct Node* left;
+    struct Node* right;
+    
+    Node(int x){
+        data = x;
+        left = right = NULL;
+    }
 };
 
-struct MyDs{
+
+struct MyDs
+{
     int level;
     int height;
-    TreeNode *node;
+    Node *node;
 };
 
-void levelOrderTraversal(TreeNode* root)
+vector<vector<int>> levelOrderTraversal(Node *root)
 {
     queue<MyDs> q;
-    map<int,vector<int>> mp;
+    map<int, vector<int>> mp;
     MyDs firstData;
-    firstData.level=0;
-    firstData.height=0;
-    firstData.node=root;
+    firstData.level = 0;
+    firstData.height = 0;
+    firstData.node = root;
     q.push(firstData);
-    while(!q.empty())
+    while (!q.empty())
     {
-        auto it=q.front();
+        auto it = q.front();
         q.pop();
-        mp[it.level].push_back(it.node->val);
-        if(it.node->left)
+        mp[it.level].push_back(it.node->data);
+        if (it.node->left)
         {
             MyDs leftData;
-            leftData.level=it.level-1;
-            leftData.height=it.height+1;
+            leftData.level = it.level - 1;
+            leftData.height = it.height + 1;
+            leftData.node = it.node->left;
+
             q.push(leftData);
         }
-        if(it.node->right)
+        if (it.node->right)
         {
             MyDs rightData;
-            rightData.level=it.level+1;
-            rightData.height=it.height+1;
+            rightData.level = it.level + 1;
+            rightData.height = it.height + 1;
+            rightData.node = it.node->right;
             q.push(rightData);
         }
     }
-    for(auto i:mp)
-    {
-        cout<<i.first<<"|";
-        for(auto x:i.second)
-            cout<<x<<",";
-        cout<<endl;
+    vector<vector<int>> ans;
+
+    for (auto i : mp)
+    {  
+        // sort(i.second.begin(),i.second.end());
+        ans.push_back(i.second);
     }
+    return ans;
+}
+vector<vector<int>> verticalTraversal(Node *root)
+{
+
 }
 int main()
 {
 
-    TreeNode *root = new TreeNode();
+    TreeNode *root = new TreeNode(1);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(3);
+    root->left->left = new TreeNode(4);
+    root->left->right = new TreeNode(5);
+    root->right->left = new TreeNode(6);
+    root->right->right = new TreeNode(7);
+
+    // Perform vertical traversal
+    levelOrderTraversal(root);
 }
