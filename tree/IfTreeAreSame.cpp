@@ -13,20 +13,26 @@ struct TreeNode
 
 bool isSameTree(TreeNode *p, TreeNode *q)
 {
-    if (p != NULL && q != NULL)
+    if (p != nullptr && q != nullptr)
     {
+        // Check if the current node values are different
         if (p->val != q->val)
             return false;
-        bool left=isSameTree(p->left, q->left);
-        bool right=isSameTree(q->right, q->right);
-        return left&& right;
+        
+        // Recursively check the left and right subtrees
+        return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
     }
-    else if(p!=NULL && q==NULL )
+    
+    // If one is NULL and the other is not, the trees are not the same
+    else if (p != nullptr && q == nullptr)
         return false;
-    else if(p==NULL && q!=NULL)
+    else if (p == nullptr && q != nullptr)
         return false;
+    
+    // If both are NULL, the trees are the same at this node
     return true;
 }
+
 int main()
 {
 }
