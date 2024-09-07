@@ -11,7 +11,7 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-void isSymmetric(TreeNode *root)
+bool isSymmetric(TreeNode *root)
 {
     map<int, vector<int>> mp;
     queue<pair<int, TreeNode>> q;
@@ -22,9 +22,9 @@ void isSymmetric(TreeNode *root)
     {
         auto it = q.front();
         q.pop();
-        if (it.second.val == -1)
+        if (it.second.val == INT_MIN)
         {
-            mp[it.first].push_back(0);
+            mp[it.first].push_back(INT_MIN);
             continue;
         }
         mp[it.first].push_back(it.second.val);
@@ -34,7 +34,7 @@ void isSymmetric(TreeNode *root)
         }
         if (it.second.left == NULL)
         {
-            q.push({it.first + 1, *new TreeNode(-1)});
+            q.push({it.first + 1, *new TreeNode(INT_MIN)});
         }
         if (it.second.right)
         {
@@ -42,23 +42,29 @@ void isSymmetric(TreeNode *root)
         }
         if (it.second.right == NULL)
         {
-            q.push({it.first + 1, *it.second.right});
+            q.push({it.first + 1, *new TreeNode(INT_MIN)});
         }
     }
-    for (auto i : mp)
+    for (auto vec : mp)
     {
-        cout << i.first << " :";
-        for (auto x : i.second)
-            cout << x << "|";
-        cout << endl;
+       if(!equal(vec.second.begin(), vec.second.begin() + vec.second.size() / 2, vec.second.rbegin()))
+        return false;
     }
+    return true;
 }
 int main()
 {
     TreeNode *root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(2);
-    root->left->right = new TreeNode(3);
-    root->right->right = new TreeNode(3);
-    isSymmetric(root);
+    root->left = new TreeNode(0);
+    // root->right = new TreeNode(2);
+    // root->left->right = new TreeNode(3);
+    // root->right->right = new TreeNode(3);
+//     TreeNode* root = new TreeNode(1);
+// root->left = new TreeNode(2);
+// root->right = new TreeNode(2);
+// root->left->left = new TreeNode(3);
+// root->left->right = new TreeNode(4);
+// root->right->left = new TreeNode(4);
+// root->right->right = new TreeNode(3);
+    cout<<isSymmetric(root);
 }
