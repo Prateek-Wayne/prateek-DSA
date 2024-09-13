@@ -6,6 +6,7 @@
         "map": "cpp",
         "set": "cpp",
         "unordered_set": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "iostream": "cpp"
     }
 }

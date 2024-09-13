@@ -1,30 +1,39 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+bool BFS(vector<int> adj[],vector<int> &Visited,int Node)
+{
+    Visited[Node]=1;
+    queue<pair<int,int>> q;
+    q.push({Node,-1});
+    while(!q.empty())
+    {
+        auto it=q.front();
+        q.pop();
+        for(auto i:adj[it.first])
+        {
+            if(!Visited[i])
+            {
+                Visited[i]=1;
+                q.push({i,it.first});
+            }
+            else if(i!=it.second && Visited[i]==1)
+                return true;
+        }
+    }
+    return false;
+
+}
+
 bool isCycle(int V, vector<int> adj[])
 {
-    queue<pair<int, int>> q;
-    q.push({0, -1});
-    vector<int> Visited(V, 0);
-    for (int i = 0; i < V; i++)
+    vector<int> Visited(V,0);
+    for(int i=0;i<V;i++)
     {
-        Visited[i] = 1;
-        while (!q.empty())
+        if(!Visited[i])
         {
-            auto it = q.front();
-            q.pop();
-            for (auto i : adj[it.first])
-            {
-                if (i == it.second)
-                    continue;
-                else if (Visited[i] == 1)
-                    return true;
-                else
-                {
-                    Visited[i] = 1;
-                    q.push({i, it.first});
-                }
-            }
+            if(BFS(adj,Visited,i))
+            return true;
         }
     }
     return false;
