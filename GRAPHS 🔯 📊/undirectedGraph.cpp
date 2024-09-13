@@ -3,22 +3,27 @@ using namespace std;
 
 bool isCycle(int V, vector<int> adj[])
 {
-    queue<pair<int,int>> q;
-    q.push({0,-1});
-    vector<int> Visited(V,0);
-    Visited[0]=1;
-    while(!q.empty())
+    queue<pair<int, int>> q;
+    q.push({0, -1});
+    vector<int> Visited(V, 0);
+    for (int i = 0; i < V; i++)
     {
-        auto it=q.front();
-        q.pop();
-        for(auto i: adj[it.first])
+        Visited[i] = 1;
+        while (!q.empty())
         {
-            if(i==it.second) continue;
-            else if(Visited[i]==1)
-                return true;
-            else{
-                Visited[i]=1;
-                q.push({i,it.first});
+            auto it = q.front();
+            q.pop();
+            for (auto i : adj[it.first])
+            {
+                if (i == it.second)
+                    continue;
+                else if (Visited[i] == 1)
+                    return true;
+                else
+                {
+                    Visited[i] = 1;
+                    q.push({i, it.first});
+                }
             }
         }
     }
