@@ -2,35 +2,35 @@
 using namespace std;
 
 int helper(vector<int> &nums, int target,int index,vector<int> &ds,int &sum)
-{
-    if(index==nums.size()){
-        if(sum==target)
+{   
+    int mod=1e9;
+   if(index==nums.size())
+    {
+        if(sum<=target && ds.size()>0)
             return 1;
         return 0;
     }
-
-    // add condtion..
+    // add condition...
     ds.push_back(nums[index]);
-    sum+=nums[index];
+    sum+=(ds[0]+ds[ds.size()-1])%mod;
     int left=helper(nums,target,index+1,ds,sum);
 
-    // pop condition.
+    //remove cidntion...
+    sum-=(ds[0]+ds[ds.size()-1]);
     ds.pop_back();
-    sum-=nums[index];
     int right=helper(nums,target,index+1,ds,sum);
-    return left+right;
-
+    return (left + right);
 }
 
 int numSubseq(vector<int> &nums, int target)
-{
+{   sort(nums.begin(),nums.end());
     vector<int> ds;
     int sum=0;
     return helper(nums,target,0,ds,sum);
 
 }
 int main()
-{   vector<int> nums={3,1,2};
-    cout<<numSubseq(nums,2);
+{   vector<int> nums={3,5,6,7};
+    cout<<numSubseq(nums,9);
     return 0;
 }
