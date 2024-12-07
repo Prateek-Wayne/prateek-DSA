@@ -1,20 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void rec(int i,int n)
-{
-    // base condition
-    if(i==n+1)
-        return ;
-    //print
-    cout<<i<<"|";
-    rec(i+1,n);
 
-}
-
+ int nthFibonacci(int n) {
+        // code here
+        if(n==0||n==1)
+            return n;
+        return nthFibonacci(n-1)+nthFibonacci(n-2);
+    }
 
 int main()
 {
-    rec(1,10);
+    cout<<nthFibonacci(1);
+
  return 0;
 }
