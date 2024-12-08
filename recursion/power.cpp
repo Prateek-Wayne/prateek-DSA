@@ -2,29 +2,29 @@
 using namespace std;
 
 
- double helper(double x,int n)
- {
+double func(double x,int n)
+{   
+    if(n==0)
+        return 1;
+    if(n==1)
+        return x;
     if(n<0)
     {
         n=abs(n);
         x=1/x;
     }
-    // base condition...
-    if(n==0)
-        return 1;
-    if(n==1)
-        return x;
-    // recursion....
-    if(n%2)
-        return helper(x,n-1)*x;
+    if(n%2==0)
+        return func(x*x,n/2);
     else{
-        return helper(x*x,n/2);
+        return x*func(x,n-1);
     }
- }
+}
+
 double myPow(double x, int n)
 {
-    return helper(x,n);
-    
+    int num=n;
+    return func(x,num);
+
 }
 
 int main()
