@@ -5,7 +5,7 @@ void helper(string s,string ds,vector<string> & ans,int ind)
 {
     //  base condition...
     if(ind==(s.size()))
-        {   sort(ds.begin(),ds.end());
+        {  
             if(ds.size()!=0)
                 ans.push_back(ds);
             return ;
@@ -24,6 +24,7 @@ void helper(string s,string ds,vector<string> & ans,int ind)
 vector<string> AllPossibleStrings(string s){
     vector<string> ans;
     helper(s, "", ans, 0);
+    sort(ans.begin(), ans.end());
     for (const auto& str : ans) {
         cout << str << endl;
     }
@@ -32,7 +33,7 @@ vector<string> AllPossibleStrings(string s){
 }
 int main()
 {
-    vector<string> ans=AllPossibleStrings("abc");
+    vector<string> ans=AllPossibleStrings("tk");
     cout<<endl<<ans.size();
  return 0;
 }
