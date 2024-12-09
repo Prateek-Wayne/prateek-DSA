@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@prateek-wayne/backstage-plugin-scaffold-insight": "^0.1.1"
+  }
+}
