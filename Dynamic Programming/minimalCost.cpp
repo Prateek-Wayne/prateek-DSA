@@ -1,26 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int helper(int n, int k, vector<int> &height)
+int helper(int n, int k, vector<int> &height, vector<int> &dp)
 {
     if (n == 0)
+    {
+        dp[0] = 0;
         return 0;
+    }
+
+    if(dp[n]!=-1)
+        return dp[n];
     int ans = INT_MAX;
+
     for (int i = 1; i <= k; i++)
     {
         int jump = INT_MAX;
         if (n >= i)
         {
-            int jump = helper(n - i, k, height) + abs(height[n] - height[n - i]);
+            int jump = helper(n - i, k, height,dp) + abs(height[n] - height[n - i]);
             ans = min(ans, jump);
         }
     }
-    return ans;
+    dp[n]=ans;
+    return dp[n];
 }
 
 int minimizeCost(int k, vector<int> &arr)
-{
-    return helper(arr.size() - 1, k, arr);
+{   
+    vector<int> dp(arr.size(),-1);
+    return helper(arr.size() - 1, k, arr,dp);
 }
 int main()
 {
