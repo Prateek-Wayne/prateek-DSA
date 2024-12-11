@@ -15,10 +15,9 @@ int helper(vector<int> &height,int n,vector<int> &dp)
         return dp[n];
     int left=0;
 
-    if(n>=2)
-    {
+
         left=helper(height,n-2,dp)+height[n];
-    }
+
     int right=helper(height,n-1,dp)+0;
     dp[n]=max(left,right);
     return dp[n] ;
