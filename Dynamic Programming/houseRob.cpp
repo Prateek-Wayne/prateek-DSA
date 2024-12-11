@@ -13,7 +13,7 @@ int helper(vector<int> &height,int n,vector<int> &dp)
 
     if(dp[n]!=-1)
         return dp[n];
-    int left=INT_MIN;
+    int left=0;
 
     if(n>=2)
     {
@@ -26,14 +26,14 @@ int helper(vector<int> &height,int n,vector<int> &dp)
 
 int rob(vector<int> &nums)
 {   
-    vector<int> dp(nums.size()+1,-1);
-    return helper(nums,nums.size(),dp);
+    vector<int> dp(nums.size(),-1);
+    return helper(nums,nums.size()-1,dp);
     
 }
 
 int main()
 {
-    vector<int> house={1,2,3,1};
+    vector<int> house={1,2};
     cout<<rob(house);
     
     return 0;
