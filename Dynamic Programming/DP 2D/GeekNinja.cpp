@@ -17,7 +17,7 @@ int helper(vector<vector<int>> &arr, int last, int days, vector<vector<int>> &dp
         }
         return temp;
     }
-    if (dp[days][last] != -1)
+   if (dp[days][last] != -1&& last< arr[0].size())
         return dp[days][last];
     int ans = INT_MIN;
     for (int i = 0; i < arr[0].size(); i++)
