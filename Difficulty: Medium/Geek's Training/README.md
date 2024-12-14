@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/geeks-training/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=geeks-training">Geek's Training</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Geek is going for a training program. He can perform any of these activities: Running, Fighting, and Learning Practice. Each activity has some point on each day. As Geek wants to improve all his skills, he can't do the same activity on two consecutive days. Help Geek to maximize his merit points as you are given a 2D array of points <strong>arr,</strong> corresponding to each day and activity.</span></p>
+<pre><span style="font-size: 18px;"><strong>Example:</strong>
+<strong>Input:</strong> n=3 and arr[]= [[1,2,5],[3,1,1],[3,3,3]]
+<strong>Output:</strong>11
+<strong>Explanation:</strong>Geek will learn a new move and earn 5 point then on second day he will do running and earn 3 point and on third day he will do fighting and earn 3 points so, maximum point is 11.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity: </strong>O(3*n)<br><strong>Expected Space Complexity: </strong>O(3*n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraint:</strong><br>1 &lt;=&nbsp; arr.size &lt;= 10<sup>5</sup><br>1 &lt;=&nbsp; arr[i][j] &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Arrays</code>&nbsp;
