@@ -1,34 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int helper(int R,int C,int m,int n,int &count)
+int helper(int R,int C,int m ,int n)
 {
-    // base...
     if(R==m && C==n)
-    {
-        count++;
-        return count;
-    }
-
+        return 1;
+    int path=0;
     if(R+1<=m)
-    {
-        return helper(R+1,C,m,n,count);
+    {  
+        path+=helper(R+1,C,m,n);
     }
     if(C+1<=n)
-    {
-        return helper(R,C+1,m,n,count);
-    }
-    else    
-        return 0;
+        path+=helper(R,C+1,m,n);
+    return path;
 }
 
 int uniquePaths(int m, int n)
 {
-    int count=0;
-    return helper(0,0,m-1,n-1,count);
+    return helper(0, 0, m - 1, n - 1);
 }
+
 int main()
 {   
-    return uniquePaths(3,2);
+    cout<< uniquePaths(3,7);
     return 0;
 }
