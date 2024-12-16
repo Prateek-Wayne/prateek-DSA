@@ -1,24 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int helper(vector<vector<int>> &triangle, int R, int C)
+int helper(vector<vector<int>> &triangle, int R, int C,vector<vector<int>> &dp)
 {
     if (R == triangle.size() - 1)
     {
+        dp[R][C]=triangle[R][C];
         return triangle[R][C];
     }
-
-    int left=triangle[R][C]+helper(triangle,R+1,C);
-    int right=triangle[R][C]+helper(triangle,R+1,C+1);
-    return min(left,right);
+    if(dp[R][C]!=-1)
+        return dp[R][C];
+    int left=triangle[R][C]+helper(triangle,R+1,C,dp);
+    int right=triangle[R][C]+helper(triangle,R+1,C+1,dp);
+    return dp[R][C]= min(left,right);
 }
 
 int minimumTotal(vector<vector<int>> &triangle)
 {
     int R = 0;
     int C = 0;
-    
-    return helper(triangle, R, C);
+    vector<vector<int>> dp(triangle.size(),vector<int>(triangle.size(),-1));
+    return helper(triangle, R, C,dp);
 }
 int main()
 {
