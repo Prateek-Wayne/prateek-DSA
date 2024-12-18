@@ -9,7 +9,7 @@ int helper(vector<vector<int>> &matrix, int R, int C)
     }
     int dr;
 
-    if (C < matrix.size())
+    if (C < matrix.size()-1)
     {
         dr = helper(matrix, R + 1, C + 1) + matrix[R][C];
     }
