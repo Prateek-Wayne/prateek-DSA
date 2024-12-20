@@ -7,42 +7,45 @@ using namespace std;
 class Solution {
   public:
 
-
-int helper(vector<vector<int>> &arr, int last, int days, vector<vector<int>> &dp)
-{ // base...
-    if (days == 0)
+int helper(vector<vector<int>> &arr, int d, int last, vector<vector<int>> &dp)
+{
+    // base..
+    if (d == 0)
     {
         int temp = INT_MIN;
         for (int i = 0; i < arr[0].size(); i++)
         {
-
             if (i != last)
             {
-                temp = max(temp, arr[days][i]);
-                dp[0][i] = temp;
+                temp = max(temp, arr[d][i]);
             }
         }
+        dp[d][last] = temp;
         return temp;
     }
-   if (dp[days][last] != -1&& last< arr[0].size())
-        return dp[days][last];
+    if (dp[d][last] != -1 && last < arr[0].size())
+        return dp[d][last];
     int ans = INT_MIN;
     for (int i = 0; i < arr[0].size(); i++)
     {
+
         if (i != last)
         {
-            int temp = helper(arr, i, days - 1, dp) + arr[days][i];
+            int temp = helper(arr, d - 1, i, dp) + arr[d][i];
             ans = max(ans, temp);
         }
     }
-    dp[days][last] = ans;
+    dp[d][last] = ans;
     return ans;
 }
 
 int maximumPoints(vector<vector<int>> &arr, int n)
 {
-    vector<vector<int>> dp(n, vector<int>(arr[0].size(), -1));
-    return helper(arr, arr[0].size(), n - 1, dp);
+    // Code here
+    int days = arr.size() - 1;
+    int last = arr[0].size();
+    vector<vector<int>> dp(arr.size(), vector<int>(arr[0].size(), -1));
+    return helper(arr, days, last, dp);
 }
 };
 
