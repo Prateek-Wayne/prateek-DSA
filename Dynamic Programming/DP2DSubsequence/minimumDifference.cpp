@@ -50,8 +50,13 @@ int minimumDifferenceTabulation(vector<int> &nums)
 
     bool ans = dp[n][sum];
 
-    int diff = INT_MAX for (int i = 0; i <= sum; i++)
+    int diff = INT_MAX;
+    for (int i = 0; i <= sum; i++)
     {
+        if (dp[n][i])
+        {
+            diff = min(diff, abs(sum - 2 * i));
+        }
     }
     cout << "Tabulation\n";
     for (int i = 0; i <= n; i++)
@@ -63,7 +68,7 @@ int minimumDifferenceTabulation(vector<int> &nums)
         cout << endl;
     }
 
-    return ans;
+    return diff;
 }
 
 int minimumDifference(vector<int> &nums)
@@ -95,7 +100,8 @@ int minimumDifference(vector<int> &nums)
 }
 int main()
 {
-    vector<int> nums = {3, 9, 7, 3};
+    // vector<int> nums = {3, 9, 7, 3};
+    vector<int> nums = {8 ,6, 5};
     cout << minimumDifferenceTabulation(nums);
     cout << minimumDifference(nums);
     return 0;
