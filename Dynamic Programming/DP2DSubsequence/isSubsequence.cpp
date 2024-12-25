@@ -27,10 +27,35 @@ bool isSubsetSum(vector<int> &arr, int target)
 
     return helper(arr, target, n, dp);
 }
+
+bool isSubsetSumTabulation(vector<int> &arr, int target)
+{
+    // code here
+    int n = arr.size() - 1;
+    vector<vector<bool>> dp(n + 1, vector<bool>(target + 1, false));
+    for (int i = 0; i <= n; i++)
+    {
+        dp[i][0] = true;
+    }
+    dp[0][arr[0]] = true;
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= target; j++)
+        {
+            bool notpick = dp[i - 1][j];
+
+            bool pick = false;
+            if (arr[i] <= j)
+                pick = dp[i - 1][j - arr[i]];
+            dp[i][j] = pick || notpick;
+        }
+    }
+    return dp[n][target];
+}
 int main()
 {
     vector<int> arr = {3, 34, 4, 12, 5, 2};
-    int target = 9;
-    cout << isSubsetSum(arr, target);
+    int target = 1;
+    cout << isSubsetSumTabulation(arr, target);
     return 0;
 }
