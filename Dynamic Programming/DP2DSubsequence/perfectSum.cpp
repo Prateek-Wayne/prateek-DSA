@@ -24,11 +24,30 @@ int helper(vector<int> &arr, int ind, int target, vector<vector<int>> &dp)
     }
     return dp[ind][target] = pick + notPick;
 }
+
 int perfectSum(vector<int> &arr, int target)
 {
     int n = arr.size() - 1;
-    vector<vector<int>> dp(n + 1, vector<int>(target + 1, -1));
-    return helper(arr, n, target, dp);
+    vector<vector<int>> dp(n + 1, vector<int>(target + 1, 0));
+    for (int i = 0; i <= n; i++)
+    {
+        dp[i][0] = 1;
+    }
+    dp[0][arr[0]] = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= target; j++)
+        {
+            int notPick = dp[i - 1][j];
+            int pick = 0;
+            if (arr[i] <= j)
+            {
+                pick = dp[i - 1][j - arr[i]];
+            }
+            dp[i][j] = pick + notPick;
+        }
+    }
+    return dp[n][target];
 }
 int main()
 {
