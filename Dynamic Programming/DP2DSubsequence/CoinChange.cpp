@@ -31,9 +31,9 @@ int helper(vector<int> &coins, int ind, int amount, vector<vector<int>> &dp)
 
     if (ind == 0)
     {
-        if (amount % coins[ind] == 0)
+        if (amount % coins[0] == 0)
         {
-            return amount / coins[ind];
+            return amount / coins[0];
         }
         return 1e9;
     }
@@ -51,8 +51,37 @@ int helper(vector<int> &coins, int ind, int amount, vector<vector<int>> &dp)
 int coinChange(vector<int> &coins, int amount)
 {
     int n = coins.size() - 1;
-    vector<vector<int>> dp(n + 1, vector<int>(amount + 1, -1));
-    return helper(coins, n, amount, dp);
+    vector<vector<int>> dp(n + 1, vector<int>(amount + 1, 0));
+    for (int i = 0; i <= amount; i++)
+    {
+        if (i % coins[0] == 0)
+            dp[0][i] = i / coins[0];
+        else
+            dp[0][i] = 1e9;
+    }
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 0; j <= amount; j++)
+        {
+            // int notPick = helper(coins, ind - 1, amount, dp);
+            int notPick = dp[i - 1][j];
+            int pick = INT_MAX;
+            // if (coins[ind] <= amount)
+            // {
+            //     pick = 1 + helper(coins, ind, amount - coins[ind], dp);
+            // }
+            if (coins[i] <= j)
+            {
+                pick = 1 + dp[i][j - coins[i]];
+            }
+            dp[i][j] = min(pick, notPick);
+        }
+    }
+    int ans = dp[n][amount];
+    if (ans >= 1e9)
+        return -1;
+    return ans;
 }
 int main()
 {
