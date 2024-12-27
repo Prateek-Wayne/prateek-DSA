@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int helper(vector<int> &val, vector<int> &wt, int ind, int W)
+int helper(vector<int> &val, vector<int> &wt, int ind, int W, vector<vector<int>> &dp)
 {
     // base
     if (ind == 0)
@@ -10,21 +10,24 @@ int helper(vector<int> &val, vector<int> &wt, int ind, int W)
             return val[0];
         return 0;
     }
+    if (dp[ind][W] != -1)
+        return dp[ind][W];
 
-    int notPick = helper(val, wt, ind - 1, W) + 0;
+    int notPick = helper(val, wt, ind - 1, W, dp) + 0;
     int pick = INT_MIN;
     if (wt[ind] <= W)
     {
-        pick = val[ind] + helper(val, wt, ind - 1, W - wt[ind]);
+        pick = val[ind] + helper(val, wt, ind - 1, W - wt[ind], dp);
     }
-    return max(pick, notPick);
+    return dp[ind][W] = max(pick, notPick);
 }
 
 int knapSack(int capacity, vector<int> &val, vector<int> &wt)
 {
     // code here
     int n = val.size() - 1;
-    return helper(val, wt, n, capacity);
+    vector<vector<int>> dp(n + 1, vector<int>(capacity + 1, -1));
+    return helper(val, wt, n, capacity, dp);
 }
 int main()
 {
