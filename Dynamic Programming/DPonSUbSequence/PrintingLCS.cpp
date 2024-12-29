@@ -41,34 +41,26 @@ int getLCSLength(string &s1, string &s2)
     }
     string ans(dp[ind1][ind2], '$');
     int index = ans.size() - 1;
+    int i = ind1;
+    int j = ind2;
 
-    for (int temp = 1; temp <= ind2; temp++)
+    while (i > 0 && j > 0)
     {
-        int i = ind1;
-        int j = temp;
-        if (dp[ind1][temp] == dp[ind1][ind2])
+        if (s1[i] == s2[j])
         {
-
-            while (i > 0 && j > 0)
-            {
-                if (s1[i] == s2[j])
-                {
-                    ans[index] = s1[i - 1];
-                    index--;
-                    i--;
-                    j--;
-                }
-                else if (dp[i][j - 1] > dp[i - 1][j])
-                {
-                    j--;
-                }
-                else
-                    i--;
-            }
-            cout << ans << endl;
+            ans[index] = s1[i - 1];
+            index--;
+            i--;
+            j--;
         }
+        else if (dp[i][j - 1] > dp[i - 1][j])
+        {
+            j--;
+        }
+        else
+            i--;
     }
-
+    cout << ans << endl;
     // printing the array for now
     return dp[ind1][ind2];
 }
