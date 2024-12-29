@@ -21,6 +21,7 @@ string shortestCommonSupersequence(string s1, string s2)
                 dp[i][j] = 1 + dp[i - 1][j - 1];
             else
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+            // dp[i][j] = 0;
         }
     }
     int lcs = dp[ind1][ind2];
@@ -28,6 +29,7 @@ string shortestCommonSupersequence(string s1, string s2)
     int index = lcs - 1;
     int i = ind1;
     int j = ind2;
+
     while (i > 0 && j > 0)
     {
         if (s1[i - 1] == s2[j - 1])
@@ -37,7 +39,7 @@ string shortestCommonSupersequence(string s1, string s2)
             i--;
             j--;
         }
-        else if (dp[i] > dp[j])
+        else if (dp[i][j - 1] > dp[i - 1][j])
         {
             j--;
         }
