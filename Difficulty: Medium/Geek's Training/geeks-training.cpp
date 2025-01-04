@@ -6,46 +6,37 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-
-int helper(vector<vector<int>> &arr, int d, int last, vector<vector<int>> &dp)
+ 
+int helper(vector<vector<int>> &arr, int ind, int prev, vector<vector<int>> &dp)
 {
-    // base..
-    if (d == 0)
+    if (ind == 0)
     {
-        int temp = INT_MIN;
-        for (int i = 0; i < arr[0].size(); i++)
+        int ans = INT_MIN;
+        for (int i = 0; i <= 2; i++)
         {
-            if (i != last)
-            {
-                temp = max(temp, arr[d][i]);
-            }
+            if (i != prev)
+                ans = max(ans, arr[0][i]);
         }
-        dp[d][last] = temp;
-        return temp;
+        return ans;
     }
-    if (dp[d][last] != -1 && last < arr[0].size())
-        return dp[d][last];
+    if (dp[ind][prev] != -1)
+        return dp[ind][prev];
     int ans = INT_MIN;
-    for (int i = 0; i < arr[0].size(); i++)
+    for (int i = 0; i <= 2; i++)
     {
-
-        if (i != last)
+        if (i != prev)
         {
-            int temp = helper(arr, d - 1, i, dp) + arr[d][i];
-            ans = max(ans, temp);
+            ans = max(ans, helper(arr, ind - 1, i, dp) + arr[ind][i]);
         }
     }
-    dp[d][last] = ans;
-    return ans;
+    return dp[ind][prev] = ans;
 }
 
 int maximumPoints(vector<vector<int>> &arr, int n)
 {
-    // Code here
-    int days = arr.size() - 1;
-    int last = arr[0].size();
-    vector<vector<int>> dp(arr.size(), vector<int>(arr[0].size(), -1));
-    return helper(arr, days, last, dp);
+
+    vector<vector<int>> dp(n, vector<int>(arr[0].size() + 1, -1));
+    return helper(arr, n - 1, 3, dp);
 }
 };
 
