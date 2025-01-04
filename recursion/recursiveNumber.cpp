@@ -1,29 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int MOD = 1e9 + 7;
+int MOD = 1e9 + 7;
 
-void helper(long long index, int n, long long first, long long &ans)
+int helper(int n, vector<int> &dp)
 {
-    if (index == n)
-        return;
-    long long temp = 1;
-    long long i = first;
-    for (; i < first + index; i++)
-    {
-        // temp = temp * i;
-        temp = (temp * i) % MOD;
-    }
 
-    ans += temp;
-    first = i;
-    helper(index + 1, n, i, ans);
+    if (n == 0)
+        return 0;
+    if (dp[n] != -1)
+        return dp[n];
+    long long first = 1 + ((n * (n - 1)) / 2);
+    long long temp = 1;
+    for (long long i = 0; i < n; i++)
+        temp = (temp * (first + i)) % MOD;
+    return dp[n] = (temp + helper(n - 1, dp)) % MOD;
 }
 
 long long sequence(int n)
 {
-    long long ans = 0;
-    helper(1, n + 1, 1, ans);
+    vector<int> dp(n + 1, -1);
+    long long ans = helper(n, dp);
     return ans % MOD;
 }
 int main()
