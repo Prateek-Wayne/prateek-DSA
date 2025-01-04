@@ -29,6 +29,6 @@ int main()
     vector<int> arr = {1,2,2};
     vector<int> ans;
     ans = subsetSums(arr);
-    
+
     return 0;
 }
