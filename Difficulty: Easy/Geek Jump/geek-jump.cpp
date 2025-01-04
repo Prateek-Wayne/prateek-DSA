@@ -7,31 +7,24 @@ using namespace std;
 class Solution {
   public:
 
-int helper(vector<int> &height,int n,vector<int> &dp) // n is 0 based n-1...
+int helper(vector<int> &height, int ind, vector<int> &dp)
 {
-    if(n==0)
-    {   
-        dp[0]=0;
+    if (ind == 0)
         return 0;
-    }
-    if(dp[n]!=-1)
-        return dp[n];
-    int left =helper(height,n-1,dp)+abs( height[n]-height[n-1]);
-    int right=INT_MAX;
-    if(n>1)
-    {
-        right=helper(height,n-2,dp)+abs(height[n]-height[n-2]);
-    }
-    return dp[n]=min(left,right);
-
+    if (dp[ind] != -1)
+        return dp[ind];
+    int left = helper(height, ind - 1, dp) + abs(height[ind] - height[ind - 1]);
+    int right = INT_MAX;
+    if (ind > 1)
+        right = helper(height, ind - 2, dp) + abs(height[ind] - height[ind - 2]);
+    return dp[ind] = min(left, right);
 }
 
 int minimumEnergy(vector<int> &height, int n)
 {
     // Code here
-    vector<int> dp(n+1,-1);
-    return helper(height,n-1,dp);
-    
+    vector<int> dp(n, -1);
+    return helper(height, n - 1, dp);
 }
 };
 
