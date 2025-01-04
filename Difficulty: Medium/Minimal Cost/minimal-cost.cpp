@@ -6,38 +6,32 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-
-
-int helper(int n, int k, vector<int> &height, vector<int> &dp)
+ int helper(vector<int> &arr, int ind, int k, vector<int> &dp)
 {
-    if (n == 0)
-    {
-        dp[0] = 0;
+    if (ind == 0)
         return 0;
-    }
-
-    if(dp[n]!=-1)
-        return dp[n];
     int ans = INT_MAX;
-
+    if (dp[ind] != -1)
+        return dp[ind];
     for (int i = 1; i <= k; i++)
     {
-        int jump = INT_MAX;
-        if (n >= i)
+
+        if (ind > (i - 1))
         {
-            int jump = helper(n - i, k, height,dp) + abs(height[n] - height[n - i]);
+            int jump = helper(arr, ind - i, k, dp) + abs(arr[ind] - arr[ind - i]);
             ans = min(ans, jump);
         }
     }
-    dp[n]=ans;
-    return dp[n];
+    return dp[ind] = ans;
 }
-
 int minimizeCost(int k, vector<int> &arr)
-{   
-    vector<int> dp(arr.size(),-1);
-    return helper(arr.size() - 1, k, arr,dp);
-}};
+{
+    // vector<int> ans;
+    int n = arr.size() - 1;
+    vector<int> dp(n + 1, -1);
+    return helper(arr, n, k, dp);
+}
+};
 
 //{ Driver Code Starts.
 
