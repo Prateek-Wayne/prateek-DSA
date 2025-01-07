@@ -107,14 +107,20 @@ Node* newNode(int val) {
 
 class Solution {
   public:
-    int minValue(Node* root) {
-        // Code here
-         while(root->left!=NULL)
-        {
-            root=root->left;
-        }
-        return root->data;
-    }
+void helper(Node *root, int &ans)
+{
+    if (!root)
+        return;
+    ans = root->data;
+    helper(root->left, ans);
+}
+
+int minValue(Node *root)
+{
+    int ans;
+    helper(root, ans);
+    return ans;
+}
 };
 
 
@@ -130,7 +136,9 @@ int main() {
         Node* root = buildTree(s);
         Solution ob;
         cout << ob.minValue(root) << endl;
-    }
+    
+cout << "~" << "\n";
+}
     return 1;
 }
 // } Driver Code Ends
