@@ -14,12 +14,13 @@ using namespace std;
 class Solution {
   public:
     bool isBSTTraversal(vector<int>& arr) {
-       for(int i=0;i<arr.size()-1;i++)
-    {
-        if(arr[i]>=arr[i+1])
+        // your code here
+    int n = arr.size();
+    for (int i = 1; i < n; i++)
+        if (arr[i - 1] >= arr[i])
             return false;
-    }
     return true;
+        
     }
 };
 
@@ -46,7 +47,9 @@ int main() {
             cout << "False";
 
         cout << "\n";
-    }
+    
+cout << "~" << "\n";
+}
     return 0;
 }
 
