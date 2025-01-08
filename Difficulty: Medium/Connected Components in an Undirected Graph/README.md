@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/connected-components-in-an-undirected-graph/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card">Connected Components in an Undirected Graph</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an undirected graph <strong>edges</strong>, the objective is to return a list of all connected components. Each connected component should be represented as a list of its vertices, with all components returned in a collection where each component is listed separately.</span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> e=3, v=5, edges = [{0, 1},{2, 1},{3, 4}]
+<strong>Output: </strong>[[0, 1, 2],[3, 4]]</span><strong><span style="font-size: 18px;">
+Explanation: <br></span></strong><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220905132251/graph.jpg" alt="Example of an undirected graph"></pre>
+<p><strong><span style="font-size: 18px;">Example 2:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>e=5, v=7,<strong> </strong></span><span style="font-size: 18px;"><span style="font-size: 18px;">edges</span><strong style="font-size: 18px;">=</strong><span style="font-size: 18px;">[{0, 1},{6, 1},{2, 4},{2, 3},{3, 4}]
+</span><strong style="font-size: 18px;">Output: </strong><span style="font-size: 18px;">[[0, 1, 6],[2, 3, 4],[5]]
+</span></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong>0 &lt;= edges[i][0], edges[i][1] &lt; v<br>1 ≤ v, e ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;<code>union-find</code>&nbsp;<code>DFS</code>&nbsp;<code>BFS</code>&nbsp;
