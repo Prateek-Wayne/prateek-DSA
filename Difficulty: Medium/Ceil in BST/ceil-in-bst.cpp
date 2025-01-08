@@ -89,7 +89,9 @@ int main() {
         cin >> x;
         Node* root = buildTree(s);
         cout << findCeil(root, x) << endl;
-    }
+    
+cout << "~" << "\n";
+}
     return 1;
 }
 
@@ -99,21 +101,25 @@ int main() {
 // User function Template for C++
 
 // Function to return the ceil of given number in BST.
-int findCeil(Node* root, int k) {
-    if (root == NULL) return -1;
-    int ans=INT_MAX;
-    while(root!=NULL)
-    {
-        if(root->data>=k)
-        {
-            ans=min(ans,root->data);
-        }
-        root=root->data>=k?root->left:root->right;
-    }
+void helper(Node *root, int input, int &ans)
+{
+    if (!root)
+        return;
+    if (root->data >= input)
+        ans = min(ans, root->data);
+    if (input > root->data)
+        helper(root->right, input, ans);
+    else
+        helper(root->left, input, ans);
+}
+
+int findCeil(Node *root, int input)
+{
+    if (!root)
+        return -1;
+    int ans = INT_MAX;
+    helper(root, input, ans);
     if(ans==INT_MAX)
         return -1;
     return ans;
-    
-
-    // Your code here
 }
