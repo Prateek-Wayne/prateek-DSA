@@ -2,36 +2,44 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 // } Driver Code Ends
 class Solution {
   public:
     // Function to return a list containing the DFS traversal of the graph.
-    void DFS(vector<int> adj[], vector<int> &Visited, int Node,vector<int> &ans)
+    
+void dfs(vector<vector<int>> &adj, int node, vector<int> &Vis, vector<int> &ans)
 {
-    ans.push_back(Node);
-    // Visited[Node] = 1;
-    for (auto i : adj[Node])
+    Vis[node] = 1;
+    for (auto i : adj[node])
     {
-        if (Visited[i] == 0)
-        {
-            Visited[i] = 1;
-            DFS(adj, Visited, i,ans);
+        if (!Vis[i])
+        {   
+            Vis[i]=1;
+            ans.push_back(i);
+            dfs(adj, i, Vis, ans);
         }
     }
-    return;
 }
- vector<int> dfsOfGraph(int V, vector<int> adj[]) {
-        // Code here
-        vector<int> ans;
-        vector<int> Visited(V,0);
-        Visited[0]=1;
-        DFS(adj,Visited,0,ans);
-        return ans;
 
+vector<int> dfsOfGraph(vector<vector<int>> &adj)
+{
+    // Code here
+    int n = adj.size();
+    vector<int> Vis(n, 0);
+    vector<int> ans;
+    ans.push_back(0);
+    for (int i = 0; i < n; i++)
+    {
+        if (!Vis[i])
+            dfs(adj, i, Vis, ans);
     }
+    return ans;
+}
 };
 
 //{ Driver Code Starts.
+
 int main() {
     int tc;
     cin >> tc;
@@ -39,7 +47,8 @@ int main() {
         int V, E;
         cin >> V >> E;
 
-        vector<int> adj[V];
+        vector<vector<int>> adj(
+            V); // Use vector of vectors instead of array of vectors.
 
         for (int i = 0; i < E; i++) {
             int u, v;
@@ -47,15 +56,16 @@ int main() {
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
-        // string s1;
-        // cin>>s1;
+
         Solution obj;
-        vector<int> ans = obj.dfsOfGraph(V, adj);
+        vector<int> ans = obj.dfsOfGraph(adj);
         for (int i = 0; i < ans.size(); i++) {
             cout << ans[i] << " ";
         }
         cout << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
+
 // } Driver Code Ends
