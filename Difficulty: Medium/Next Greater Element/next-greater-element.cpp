@@ -1,62 +1,64 @@
 //{ Driver Code Starts
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 
 // } Driver Code Ends
-class Solution
+class Solution {
+  public:
+    // Function to find the next greater element for each element of the array.
+
+vector<int> nextLargerElement(vector<int> &arr)
 {
-    public:
-    //Function to find the next greater element for each element of the array.
-  
- vector<long long> nextLargerElement(vector<long long> arr, int n) {
-    stack<long long> st;
-    vector<long long> ans;
-
-    for (long long i = n - 1; i >= 0; i--) {
-        // While stack is not empty and top element is smaller or equal to current element
-        while (!st.empty() && st.top() <= arr[i]) {
-            st.pop();  // Remove all elements smaller than or equal to current element
-        }
-
-        // If stack is empty, no greater element exists, push -1
-        if (st.empty()) {
-            ans.push_back(-1);
-        } else {
-            // Top of the stack is the next greater element
-            ans.push_back(st.top());
-        }
-
-        // Push the current element to stack for future comparison
+    // code here
+   stack<int> st;
+    int n = arr.size();
+    vector<int> ans(n, -1);
+    for (int i = n - 1; i >= 0; i--)
+    {
+        while (!st.empty() &&st.top() <= arr[i])
+            st.pop();
+        if (st.empty())
+            ans[i] = -1;
+        else
+            ans[i] = st.top();
         st.push(arr[i]);
     }
-
-    // Since we're iterating from the end, we reverse the result
-    reverse(ans.begin(), ans.end());
     return ans;
 }
 };
 
 //{ Driver Code Starts.
 
-int main()
-{
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        
-        int n;
-        cin>>n;
-        vector<long long> arr(n);
-        for(int i=0;i<n;i++)
-            cin>>arr[i];
-        
+int main() {
+    int t; // Number of test cases
+    cin >> t;
+    cin.ignore(); // Ignore the newline after reading t
+    while (t--) {
+        vector<int> a;
+        string input;
+
+        // Reading the entire input line for the array
+        getline(cin, input);
+        stringstream ss(input);
+        int num;
+        while (ss >> num)
+            a.push_back(num); // Read the array elements from input string
+
         Solution obj;
-        vector <long long> res = obj.nextLargerElement(arr, n);
-        for (long long i : res) cout << i << " ";
-        cout<<endl;
+        vector<int> result = obj.nextLargerElement(a);
+
+        // Print the result in the required format
+        for (int i = 0; i < result.size(); i++) {
+            if (i != 0)
+                cout << " ";
+            cout << result[i];
+        }
+        cout << endl;        // Ensure new line after each test case output
+        cout << "~" << endl; // Ensure new line after each test case output
     }
-	return 0;
+
+    return 0;
 }
+
 // } Driver Code Ends
