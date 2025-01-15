@@ -2,63 +2,63 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<long long> printFirstNegativeInteger(long long int arr[],
-                                             long long int n, long long int k);
-
-// Driver program to test above functions
-int main() {
-    long long int t, i;
-    cin >> t;
-    while (t--) {
-        long long int n;
-        cin >> n;
-        long long int arr[n];
-        for (i = 0; i < n; i++) {
-            cin >> arr[i];
-        }
-        long long int k;
-        cin >> k;
-
-        vector<long long> ans = printFirstNegativeInteger(arr, n, k);
-        for (auto it : ans) cout << it << " ";
-        cout << endl;
-    }
-    return 0;
-}
 
 // } Driver Code Ends
 
 
-vector<long long> printFirstNegativeInteger(long long int arr[],
-                                            long long int N, long long int k)
-{
-
-    int l = 0;
-    int r = 0;
-    deque<long long> dq;
-    vector<long long> ans;
-    while (r < N)
+class Solution {
+  public:
+    vector<int> FirstNegativeInteger(vector<int>& arr, int k) {
+        // write code here
+          queue<int> q;
+    int i = 0, j = 0;
+    vector<int> ans;
+    while (j < arr.size())
     {
-        if (arr[r] < 0)
-            dq.push_back(arr[r]);
 
-        // main sliding window.....
-        if (r - l + 1 < k)
-            r++;
-        else if (r - l + 1 == k)
+        if (arr[j] < 0)
+            q.push(arr[j]);
+        if (j - i + 1 < k)
+            j++;
+        else
         {
-
-            if (dq.size() == 0)
-                ans.push_back(0);
-            else
-                ans.push_back(dq.front());
-
-            // check for procedding further....
-            if (arr[l] == dq.front())
-                dq.pop_front();
-            l++;
-            r++;
+            q.size() == 0 ? ans.push_back(0) : ans.push_back(q.front());
+               if (q.size() != 0 && q.front() == arr[i])
+                q.pop();
+            i++;
+            j++;
         }
     }
     return ans;
+    }
+};
+
+//{ Driver Code Starts.
+int main() {
+    string ts;
+    getline(cin, ts);
+    int t = stoi(ts);
+    while (t--) {
+
+        vector<int> arr;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
+        }
+        string ks;
+        getline(cin, ks);
+        int k = stoi(ks);
+        Solution ob;
+        vector<int> ans = ob.FirstNegativeInteger(arr, k);
+        for (auto it : ans) {
+            cout << it << " ";
+        }
+        cout << endl;
+        cout << "~" << endl;
+    }
+    return 0;
 }
+// } Driver Code Ends
