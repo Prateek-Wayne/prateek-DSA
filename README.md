@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0735-asteroid-collision) |
+| [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Greedy
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
+| [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Sorting
 |  |
@@ -127,9 +129,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
