@@ -18,10 +18,11 @@ class Solution {
     for (int i = 0; i < arr.size(); i++)
     {
         sum += arr[i];
-        mp[sum]++;
+       
         long long diff = sum - k;
         if (mp.count(diff))
             ans += mp[diff];
+         mp[sum]++;
     }
     return ans;
     }
