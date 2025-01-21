@@ -1,24 +1,25 @@
 class Solution {
 public:
-    int longestOnes(vector<int>& arr, int k) {
-        queue<int> q;
-        int temp = 0;
-        int ans = 0;
-        int i = 0;
-        int j = 0;
-        int N = arr.size();
+    int longestOnes(vector<int>& nums, int k) {
+        int i = 0, j = 0, temp = 0, ans = 0;
+        int N = nums.size();
         while (j < N) {
-            q.push(arr[j]);
-            if (arr[j] == 0)
+            if (nums[j] == 0)
                 temp++;
-
-            while (temp > k) {
-                if (q.front() == 0)
-                    temp--;
-                q.pop();
+            if (temp <= k) {
+                ans = max(ans, j - i + 1);
+                j++;
+            } else {
+                while (temp > k) {
+                    if (nums[i] == 0)
+                        temp--;
+                    i++;
+                }
+                if (temp == k) {
+                    ans = max(ans, j - i + 1);
+                }
+                j++;
             }
-            ans = max(static_cast<int>(q.size()), ans);
-            j++;
         }
         return ans;
     }
