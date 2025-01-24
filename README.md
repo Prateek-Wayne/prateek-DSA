@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0136-single-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0136-single-number) |
 | [0198-house-robber](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0198-house-robber) |
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0503-next-greater-element-ii) |
@@ -139,4 +140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
