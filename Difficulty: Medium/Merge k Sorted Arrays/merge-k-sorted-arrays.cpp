@@ -19,43 +19,47 @@ class Solution
 {
     public:
     //Function to merge k sorted arrays.
+vector<int> mergeKArrays(vector<vector<int>> arr, int K)
+{
+    // code here//{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
+    struct customDataType
+    {
+        int data;
+        int rPos;
+        int cPos;
+        customDataType(int value, int row, int col)
+        {
+            this->data = value;
+            this->rPos = row;
+            this->cPos = col;
+        }
+    };
 
-class Data {
-public:
-    int value;
-    int row;
-    int col;
-    Data(int v, int r, int c) {
-        value = v;
-        row = r;
-        col = c;
-    }
-};
+    struct compare
+    {
+        bool operator()(customDataType const &a, customDataType const &b)
+        {
+            return a.data > b.data; //
+        }
+    };
 
-// Custom comparator for min-heap
-struct CompareData {
-    bool operator()(Data const& d1, Data const& d2) {
-        return d1.value > d2.value; // Min-heap: smallest element at the top
-    }
-};
+    priority_queue<customDataType, vector<customDataType>, compare> minHeap;
 
-vector<int> mergeKArrays(vector<vector<int>> arr, int K) {
-    priority_queue<Data, vector<Data>, CompareData> q;
     vector<int> ans;
-
-    for (int i = 0; i < K; i++) {
-        Data data(arr[i][0], i, 0);
-        q.push(data);
+    for (int i = 0; i < K; i++)
+    {
+        customDataType value(arr[i][0], i, 0);
+        minHeap.push(value);
     }
-    while (!q.empty()) {
-        auto it = q.top();
-        q.pop();
-        ans.push_back(it.value);
-        int r = it.row;
-        int c = it.col + 1;
-        if (c < arr[r].size()) {
-            Data data(arr[r][c], r, c);
-            q.push(data);
+    while (!minHeap.empty())
+    {
+        customDataType top = minHeap.top();
+        minHeap.pop();
+        ans.push_back(top.data);
+        if (top.cPos + 1 < arr[top.rPos].size())
+        {
+            customDataType value(arr[top.rPos][top.cPos + 1], top.rPos, top.cPos + 1);
+            minHeap.push(value);
         }
     }
     return ans;
@@ -82,7 +86,9 @@ int main()
     	vector<int> output = obj.mergeKArrays(arr, k);
     	printArray(output, k*k);
     	cout<<endl;
-    }
+    
+cout << "~" << "\n";
+}
 	return 0;
 }
 
