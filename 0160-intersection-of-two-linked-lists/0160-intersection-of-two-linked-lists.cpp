@@ -8,23 +8,19 @@
  */
 class Solution {
 public:
- ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
+ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
 {
     ListNode *temp1 = headA, *temp2 = headB;
-    set<ListNode *> st;
-    while (temp1)
+   while (temp1 != temp2)
     {
-        st.insert(temp1);
-        temp1 = temp1->next;
+        // When temp1 reaches end of list A, switch to headB
+        temp1 = temp1 == nullptr ? headB : temp1->next;
+        
+        // When temp2 reaches end of list B, switch to headA
+        temp2 = temp2 == nullptr ? headA : temp2->next;
     }
-    while (temp2)
-    {
-        if (st.find(temp2) != st.end())
-        {
-            return temp2;
-        }
-        temp2 = temp2->next;
-    }
-    return nullptr;
+    
+    // Return the intersection point, or nullptr if there is none
+    return temp1;
 }
 };
