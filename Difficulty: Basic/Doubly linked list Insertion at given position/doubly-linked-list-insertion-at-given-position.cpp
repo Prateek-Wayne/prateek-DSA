@@ -29,41 +29,26 @@ struct Node
 class Solution {
   public:
     // Function to insert a new node at given position in doubly linked list.
-  
 Node *addNode(Node *head, int pos, int data)
 {
     Node *newNode = new Node(data);
-    if (!head)
-    {
-        return newNode;
-    }
     Node *temp = head;
-    if (pos == 0)
-    {
-        newNode->prev = head;
-        newNode->next = head->next;
-        newNode->next->prev = newNode;
-        head->next = newNode;
-    }
     int count = 0;
     while (temp)
     {
-
+        // count++;
         if (count == pos)
-            break;
+        {
+            Node *front = temp->next;
+            temp->next = newNode;
+            newNode->prev = temp;
+            newNode->next = front;
+            if (front != nullptr)
+                front->prev = newNode;
+        }
+           count++;
         temp = temp->next;
-        count++;
     }
-    if (!temp->next)
-    {
-        newNode->prev = temp;
-        temp->next = newNode;
-        return head;
-    }
-    newNode->prev = temp;
-    newNode->next = temp->next;
-    newNode->next->prev = newNode;
-    temp->next = newNode;
     return head;
 }
 };
