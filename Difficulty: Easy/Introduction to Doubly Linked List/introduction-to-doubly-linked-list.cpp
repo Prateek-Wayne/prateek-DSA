@@ -75,18 +75,25 @@ public:
 
 class Solution {
   public:
-  Node *constructDLL(vector<int> &arr)
+
+Node *constructDLL(vector<int> &arr)
 {
 
-        Node *head = new Node(arr[0]);
-    Node *temp = head;
+    if (arr.size() == 0)
+    {
+        return new Node();
+    }
 
+    Node *head = new Node(arr[0]);
+    Node *temp = head;
+    // Node *back = nullptr;
     for (int i = 1; i < arr.size(); i++)
     {
+        // temp->prev = back;
         Node *newNode = new Node(arr[i]);
-        newNode->prev = temp;
         temp->next = newNode;
-        temp=temp->next;
+        newNode->prev = temp;
+        temp = newNode;
     }
     return head;
 }
