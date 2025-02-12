@@ -43,27 +43,24 @@ class Solution {
     /* Function to delete a node from a linked list */
     Node* deleteNode(Node* head, int x) {
         // cdoe here
-        int count=0;
-        Node *temp=head;
-        Node *prev=nullptr;
+        if(!head)
+            return NULL;
         if(x==1)
-        {
-            head=head->next;
-            return head;
-        }
+            return head->next;
+        Node *temp=head;
+        int count=1;
         while(temp)
         {
             count++;
             if(count==x)
             {
-                prev->next=prev->next->next;
-                break;
+                temp->next=temp->next->next;
             }
-            prev=temp;
             temp=temp->next;
         }
         return head;
-    
+        
+        
     }
 };
 
