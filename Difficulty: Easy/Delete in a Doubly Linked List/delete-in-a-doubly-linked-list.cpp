@@ -84,49 +84,31 @@ class Node {
 class Solution {
   public:
     // Function to delete a node at given position.
-  Node *deleteNode(Node *head, int x)
-{
-    if (!head)
-    {
+    Node* deleteNode(Node* head, int x) {
+   Node *temp = head;
+    if (!head || !head->next)
         return NULL;
-    }
+
     if (x == 1)
     {
-        Node *temp = head;
         head = head->next;
-        if (head)
-        {
-            head->prev = NULL;
-        }
-        delete temp;
+        head->prev = NULL;
         return head;
     }
-    Node *temp = head;
-    int count = 0;
-
+    int count = 1;
     while (temp)
     {
         count++;
         if (count == x)
-            break;
+        {
+            temp->next = temp->next->next;
+            if (temp->next)
+                temp->next->prev = temp;
+        }
         temp = temp->next;
     }
-    if (!temp)
-    {
-        return head;
-    }
-    if (temp->prev)
-    {
-        temp->prev->next = temp->next;
-    }
-    if (temp->next)
-    {
-        temp->next->prev = temp->prev;
-    }
-    delete temp;
     return head;
-}
-
+    }
 };
 
 //{ Driver Code Starts.
