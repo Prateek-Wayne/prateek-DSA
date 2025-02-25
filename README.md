@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0812-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0812-rotate-string) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0242-valid-anagram) |
+| [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
@@ -197,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 ## Quickselect
 |  |
 | ------- |
@@ -254,4 +258,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0812-rotate-string) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
+## Counting
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
