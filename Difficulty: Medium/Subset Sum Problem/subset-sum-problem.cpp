@@ -5,39 +5,63 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 // User function template for C++
 
 class Solution {
   public:
- int helper(vector<int> &arr, int ind, int target, vector<vector<int>> &dp)
-{
-    if (target == 0)
+  
+    // bool helper(vector<int>& arr,vector<int>& ds, int target,int  i)
+    // {
+    //     if(i==arr.size())
+    //     {   
+    //         int sum=0;
+    //         for(int i=0;i<ds.size();i++)
+    //             sum+=ds[i];
+    //         if(sum==target)
+    //             return true;
+    //         return false;
+    //     }
+
+    //     // pick condition...
+    //     ds.push_back(arr[i]);
+    //     bool left=helper(arr,ds,target,i+1);
+    //     ds.pop_back();
+    //     bool right=helper(arr,ds,target,i+1);
+    //     return left||right;
+        
+    // }
+        bool helper(vector<int>& arr, int target,int  i,int sum, vector<vector<int>> &dp)
     {
-        return 1;
+        if(sum>target)
+            return false;
+        if(i==arr.size())
+        {   
+            if(sum==target)
+                return true;
+            return false;
+        }
+        if(dp[i][sum]!=-1)
+            return dp[i][sum];
+
+        // pick condition...
+        sum+=arr[i];
+        bool left=helper(arr,target,i+1,sum,dp);
+        sum-=arr[i];
+        bool right=helper(arr,target,i+1,sum,dp);
+        return dp[i][sum]= left||right;
+        
     }
-    if (ind == 0)
-    {
-        if (arr[0] == target)
-            return 1;
-        return 0;
+    bool isSubsetSum(vector<int>& arr, int target) {
+        vector<int> ds={};
+        int n=arr.size();
+        vector<vector<int>> dp(n+1,vector<int>(target+1,-1));
+        return helper(arr,target,0,0,dp);
+        
+        
     }
-    if (dp[ind][target] != -1)
-        return dp[ind][target];
-    int notPick = helper(arr, ind - 1, target, dp);
-    int pick = 0;
-    if (arr[ind] <= target)
-    {
-        pick = helper(arr, ind - 1, target - arr[ind], dp);
-    }
-    return dp[ind][target] = pick || notPick;
-}
-bool isSubsetSum(vector<int> &arr, int target)
-{
-    int n = arr.size() - 1;
-    vector<vector<int>> dp(n + 1, vector<int>(target + 1, -1));
-    return helper(arr, n, target, dp);
-}
 };
+
 
 //{ Driver Code Starts.
 
