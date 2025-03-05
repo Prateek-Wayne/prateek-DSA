@@ -274,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2032-largest-odd-number-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2050-count-good-numbers) |
+| [2649-count-total-number-of-colored-cells](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2649-count-total-number-of-colored-cells) |
 ## Design
 |  |
 | ------- |
