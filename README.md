@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0503-next-greater-element-ii) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0050-powx-n) |
+| [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2032-largest-odd-number-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -309,4 +311,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
