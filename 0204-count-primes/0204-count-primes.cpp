@@ -3,9 +3,9 @@ public:
     int countPrimes(int n) {
         vector<int> primes(n + 1, 1);
 
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= sqrt(n); i++) {
             if (primes[i] == 1) {
-                for (int j = i * 2; j <= n; j += i) {
+                for (long long j = (long long)i * i; j <= n; j += i) {
                     primes[j] = 0;
                 }
             }
