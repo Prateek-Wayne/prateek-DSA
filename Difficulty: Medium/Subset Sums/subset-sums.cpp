@@ -4,31 +4,34 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
-   void helper(vector<int> arr, int ind, vector<int> ds, vector<int> &ans)
-{
-    if (ind < 0)
-    {
-        int sum = 0;
-        for (auto i : ds)
-            sum += i;
-        ans.push_back(sum);
-        // cout << sum << endl;
-        return;
+  void helper(vector<int> &arr,vector<int>&ds,int index,int &sum,vector<int> &ans){
+      if(index==arr.size())
+      {
+          ans.push_back(sum);
+          return;
+      }
+      
+      ds.push_back(arr[index]);
+      sum+=arr[index];
+      helper(arr,ds,index+1,sum,ans);
+      sum-=arr[index];
+      ds.pop_back();
+      
+      helper(arr,ds,index+1,sum,ans);
+      
+  }
+    vector<int> subsetSums(vector<int>& arr) {
+       vector<int> ans ;
+       vector<int> ds ={};
+       int sum=0;
+       helper(arr,ds,0,sum,ans);
+       return ans;
     }
-    ds.push_back(arr[ind]);
-    helper(arr, ind - 1, ds, ans);
-    ds.pop_back();
-    helper(arr, ind - 1, ds, ans);
-}
-vector<int> subsetSums(vector<int> &arr)
-{
-    vector<int> ans;
-    helper(arr, arr.size() - 1, {}, ans);
-    return ans;
-}
 };
+
 
 //{ Driver Code Starts.
 
