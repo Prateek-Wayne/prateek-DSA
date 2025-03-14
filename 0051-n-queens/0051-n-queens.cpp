@@ -25,26 +25,28 @@ public:
     }
 
     bool isSafe(vector<string>& board, int row, int col) {
-        int n = board.size();
-
-        // Check the current row on the left side
-        for (int i = 0; i < col; i++) {
-            if (board[row][i] == 'Q')
+        int tempRow = row, tempCol = col, n = board.size();
+        while (tempRow >= 0 && tempCol >= 0) {
+            if (board[tempRow][tempCol] == 'Q')
                 return false;
+            tempRow--;
+            tempCol--;
         }
-
-        // Check upper-left diagonal
-        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
-            if (board[i][j] == 'Q')
+        tempRow = row;
+        tempCol = col;
+        while (tempCol >= 0) {
+            if (board[tempRow][tempCol] == 'Q')
                 return false;
+            tempCol--;
         }
-
-        // Check lower-left diagonal
-        for (int i = row, j = col; i < n && j >= 0; i++, j--) {
-            if (board[i][j] == 'Q')
+        tempRow = row;
+        tempCol = col;
+        while (tempRow < n && tempCol >= 0) {
+            if (board[tempRow][tempCol] == 'Q')
                 return false;
+            tempRow++;
+            tempCol--;
         }
-
-        return true; // Safe to place the queen
+        return true;
     }
 };
