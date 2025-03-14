@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0035-search-insert-position) |
+| [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
 | [0141-linked-list-cycle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0146-lru-cache) |
@@ -190,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [3227-find-missing-and-repeated-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3227-find-missing-and-repeated-values) |
 ## Monotonic Stack
@@ -316,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
