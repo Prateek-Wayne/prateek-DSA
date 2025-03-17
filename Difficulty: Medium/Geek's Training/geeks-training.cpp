@@ -4,41 +4,45 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
- 
-int helper(vector<vector<int>> &arr, int ind, int prev, vector<vector<int>> &dp)
+
+int helper(vector<vector<int>> &arr, int curr, int prev, vector<vector<int>> &dp)
 {
-    if (ind == 0)
+    if (curr == 0)
     {
-        int ans = INT_MIN;
+        int maxy = 0;
         for (int i = 0; i <= 2; i++)
         {
-            if (i != prev)
-                ans = max(ans, arr[0][i]);
+            if (i == prev)
+                continue;
+            maxy = max(maxy, arr[0][i]);
         }
-        return ans;
+        return dp[curr][prev] = maxy;
     }
-    if (dp[ind][prev] != -1)
-        return dp[ind][prev];
-    int ans = INT_MIN;
+    //
+    if (dp[curr][prev] != -1)
+        return dp[curr][prev];
+    int maxy = 0;
     for (int i = 0; i <= 2; i++)
     {
-        if (i != prev)
-        {
-            ans = max(ans, helper(arr, ind - 1, i, dp) + arr[ind][i]);
-        }
+        if (i == prev)
+            continue;
+        maxy = max(maxy, helper(arr, curr - 1, i, dp) + arr[curr][i]);
     }
-    return dp[ind][prev] = ans;
+    return dp[curr][prev] = maxy;
 }
-
-int maximumPoints(vector<vector<int>> &arr, int n)
+int maximumPoints(vector<vector<int>> &arr)
 {
-
-    vector<vector<int>> dp(n, vector<int>(arr[0].size() + 1, -1));
+    int n = arr.size();
+    int m = arr[0].size();
+    vector<vector<int>>
+        dp(n + 1, vector<int>(m + 1, -1));
     return helper(arr, n - 1, 3, dp);
 }
 };
+
 
 //{ Driver Code Starts.
 int main() {
@@ -59,7 +63,7 @@ int main() {
         }
 
         Solution obj;
-        cout << obj.maximumPoints(arr, n) << endl;
+        cout << obj.maximumPoints(arr) << endl;
         cout << "~" << endl;
     }
     return 0;
