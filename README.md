@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
@@ -342,4 +344,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2610-closest-prime-numbers-in-range) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
