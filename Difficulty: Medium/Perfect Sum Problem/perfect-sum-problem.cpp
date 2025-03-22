@@ -4,38 +4,42 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
-int helper(vector<int> &arr, int ind, int target, vector<vector<int>> &dp)
+
+
+int helper(vector<int> &arr, int index, int &target, vector<vector<int>> &dp)
 {
-    if (ind == 0)
+    if (target < 0)
+        return 0;
+    // if (target == 0)
+    //     return 1;
+    if (index == 0)
     {
-        if (target == 0 && arr[0] == 0)
+        if (target == 0 && arr[index] == 0)
             return 2;
-        if (target == 0)
-            return 1;
-        if (target == arr[ind])
+        if (target == 0 || arr[index] == target)
             return 1;
         return 0;
     }
-    if (dp[ind][target] != -1)
-        return dp[ind][target];
-
-    int notPick = helper(arr, ind - 1, target, dp);
-    int pick = 0;
-    if (arr[ind] <= target)
-    {
-        pick = helper(arr, ind - 1, target - arr[ind], dp);
-    }
-    return dp[ind][target] = pick + notPick;
+    if (dp[index][target] != -1)
+        return dp[index][target];
+    target -= arr[index];
+    int left = helper(arr, index - 1, target, dp);
+    target += arr[index];
+    int right = helper(arr, index - 1, target, dp);
+    return dp[index][target] = left + right;
 }
 int perfectSum(vector<int> &arr, int target)
 {
+    // code here
     int n = arr.size();
     vector<vector<int>> dp(n, vector<int>(target + 1, -1));
     return helper(arr, n - 1, target, dp);
 }
 };
+
 
 //{ Driver Code Starts.
 
