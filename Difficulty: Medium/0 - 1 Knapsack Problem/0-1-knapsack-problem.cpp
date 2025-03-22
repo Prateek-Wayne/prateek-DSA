@@ -4,39 +4,36 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
-    // Function to return max value that can be put in knapsack of capacity.
-
-int helper(vector<int> &val, vector<int> &wt, int ind, int W, vector<vector<int>> &dp)
+int helper(int W, vector<int> &val, vector<int> &wt, int index, vector<vector<int>> &dp)
 {
-    // base
-    if (ind == 0)
+    if (index == 0)
     {
-        if (wt[0] <= W)
-            return val[0];
+        if (wt[index] <= W)
+            return val[index];
         return 0;
     }
-    if (dp[ind][W] != -1)
-        return dp[ind][W];
-
-    int notPick = helper(val, wt, ind - 1, W, dp) + 0;
+    if (dp[index][W] != -1)
+        return dp[index][W];
+    // not pick...
+    int notPick = 0 + helper(W, val, wt, index - 1, dp);
     int pick = INT_MIN;
-    if (wt[ind] <= W)
+    if (wt[index] <= W)
     {
-        pick = val[ind] + helper(val, wt, ind - 1, W - wt[ind], dp);
+        pick = val[index] + helper(W - wt[index], val, wt, index - 1, dp);
     }
-    return dp[ind][W] = max(pick, notPick);
+    return dp[index][W] = max(pick, notPick);
 }
-
-int knapSack(int capacity, vector<int> &val, vector<int> &wt)
+int knapsack(int W, vector<int> &val, vector<int> &wt)
 {
-    // code here
-    int n = val.size() - 1;
-    vector<vector<int>> dp(n + 1, vector<int>(capacity + 1, -1));
-    return helper(val, wt, n, capacity, dp);
+    int n = val.size();
+    vector<vector<int>> dp(n, vector<int>(W + 1, -1));
+    return helper(W, val, wt, n - 1, dp);
 }
 };
+
 
 //{ Driver Code Starts.
 
@@ -75,7 +72,7 @@ int main() {
         }
 
         Solution solution;
-        cout << solution.knapSack(capacity, values, weights) << endl;
+        cout << solution.knapsack(capacity, values, weights) << endl;
         cout << "~" << endl;
     }
     return 0;
