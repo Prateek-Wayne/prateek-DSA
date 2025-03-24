@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0039-combination-sum) |
 | [0051-n-queens](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0120-triangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0120-triangle) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
