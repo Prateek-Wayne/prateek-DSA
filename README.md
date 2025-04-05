@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1646-kth-missing-positive-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1646-kth-missing-positive-number) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2262-solving-questions-with-brainpower](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2262-solving-questions-with-brainpower) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0136-single-number) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2478-longest-nice-subarray) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
@@ -366,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2032-largest-odd-number-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -408,11 +411,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0494-target-sum) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Enumeration
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Number Theory
 |  |
 | ------- |
@@ -427,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0062-unique-paths) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Queue
 |  |
 | ------- |
