@@ -86,6 +86,7 @@ Node* buildTree(string str) {
 
 
 // } Driver Code Ends
+
 /*
 struct Node
 {
@@ -99,32 +100,42 @@ class Solution {
     // Function to return a list of nodes visible from the top view
     // from left to right in Binary Tree.
 
+
 vector<int> topView(Node *root)
 {
-    map<int, vector<int>> mp;
+    vector<int> ans;
+    if (!root)
+        return ans;
 
-    queue<pair<Node, int>> q;
-    q.push({*root, 0});
+    map<int, vector<int>> mp;
+    queue<pair<Node *, int>> q;
+    q.push({root, 0});
     while (!q.empty())
     {
-        int s = q.size();
-        for (int i = 0; i < s; i++)
+        int size = q.size();
+        for (int i = 0; i < size; i++)
         {
             auto top = q.front();
             q.pop();
-            mp[top.second].push_back(top.first.data);
-            if (top.first.left)
-                q.push({*top.first.left, top.second - 1});
-            if (top.first.right)
-                q.push({*top.first.right, top.second + 1});
+            mp[top.second].push_back(top.first->data);
+            if (top.first->left)
+            {
+                q.push({top.first->left, top.second - 1});
+            }
+            if (top.first->right)
+            {
+                q.push({top.first->right, top.second + 1});
+            }
         }
     }
-    vector<int> ans;
     for (auto i : mp)
+    {
         ans.push_back(i.second[0]);
+    }
     return ans;
 }
 };
+
 
 
 //{ Driver Code Starts.
