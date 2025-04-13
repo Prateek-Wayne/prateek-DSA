@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0437-path-sum-iii) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0437-path-sum-iii) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 ## Binary Tree
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0437-path-sum-iii) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -214,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0322-coin-change](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0322-coin-change) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
