@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2384-root-equals-sum-of-children](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2384-root-equals-sum-of-children) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
 | ------- |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2384-root-equals-sum-of-children](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2384-root-equals-sum-of-children) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -229,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Hash Table
 |  |
@@ -254,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2888-minimum-index-of-a-valid-split) |
