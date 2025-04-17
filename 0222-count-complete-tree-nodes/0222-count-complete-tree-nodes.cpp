@@ -11,16 +11,29 @@
  */
 class Solution {
 public:
-    void helper(TreeNode *root,int &count){
-        if(!root)
-            return;
-        count++;
-        helper(root->left,count);
-        helper(root->right,count);
-    }
-    int countNodes(TreeNode* root) {
-        int count=0;
-        helper(root,count);
-        return count;
-    }
+
+void height(TreeNode *root, int &h, bool leftDir)
+{
+    if (!root)
+        return;
+    h++;
+    if (leftDir)
+        height(root->left, h, leftDir);
+    else
+        height(root->right, h, leftDir);
+}
+
+int countNodes(TreeNode *root)
+{
+    if (!root)
+        return 0;
+    int leftHeight = 0;
+    height(root, leftHeight, true);
+    int rightHeight = 0;
+    height(root, rightHeight, false);
+    if (leftHeight == rightHeight)
+        return (1 << leftHeight) - 1;
+    else
+        return 1 + countNodes(root->left) + countNodes(root->right);
+}
 };
