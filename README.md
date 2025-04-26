@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0322-coin-change) |
@@ -383,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
