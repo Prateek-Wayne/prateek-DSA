@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1603-running-sum-of-1d-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1603-running-sum-of-1d-array) |
@@ -385,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
 | [1603-running-sum-of-1d-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1833-find-the-highest-altitude) |
