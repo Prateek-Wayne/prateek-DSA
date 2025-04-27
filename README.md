@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0518-coin-change-ii) |
+| [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0735-asteroid-collision](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0792-binary-search) |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
+| [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0768-partition-labels](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0797-rabbits-in-forest) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
+| [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
