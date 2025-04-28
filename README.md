@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1500-count-largest-group](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1500-count-largest-group) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -393,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1603-running-sum-of-1d-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1833-find-the-highest-altitude) |
@@ -406,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0222-count-complete-tree-nodes) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2478-longest-nice-subarray) |
