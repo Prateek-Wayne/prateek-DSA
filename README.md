@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1293-three-consecutive-odds](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1293-three-consecutive-odds) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1421-find-numbers-with-even-number-of-digits) |
