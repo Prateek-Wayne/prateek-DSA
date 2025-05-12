@@ -3,7 +3,8 @@ public:
     int singleNumber(vector<int>& nums) {
         int ans=0;
         for(auto i:nums)
-            ans=ans^i;
+            ans=i^ans;
+        ans=ans^0;
         return ans;
     }
 };
