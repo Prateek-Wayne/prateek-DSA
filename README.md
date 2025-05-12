@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0051-n-queens) |
 | [0056-merge-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0242-valid-anagram) |
@@ -481,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0151-reverse-words-in-a-string) |
