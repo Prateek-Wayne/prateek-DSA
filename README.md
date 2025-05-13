@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0039-combination-sum) |
+| [0048-rotate-image](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0051-n-queens) |
 | [0056-merge-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0056-merge-intervals) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0048-rotate-image) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0070-climbing-stairs) |
