@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0051-n-queens) |
+| [0054-spiral-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0054-spiral-matrix) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -405,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0735-asteroid-collision) |
 | [2048-build-array-from-permutation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2265-partition-array-according-to-given-pivot) |
