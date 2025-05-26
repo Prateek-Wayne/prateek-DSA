@@ -14,7 +14,7 @@ public:
                 continue;
             }
             // search only in sorted part...
-            if(nums[low]<=nums[mid]){
+            else if(nums[low]<=nums[mid]){
                 if(nums[low]<=target && nums[mid]>=target)
                 {
                     high=mid-1;
