@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2262-solving-questions-with-brainpower) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1500-count-largest-group](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1500-count-largest-group) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -621,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -654,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0070-climbing-stairs) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Combinatorics
 |  |
 | ------- |
@@ -668,12 +672,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Topological Sort
 |  |
 | ------- |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Shortest Path
