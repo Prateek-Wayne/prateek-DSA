@@ -1,14 +1,10 @@
 class Solution {
 public:
     int differenceOfSums(int n, int m) {
-        long long num1=0,num2=0;
-        for(int i=1;i<=n;i++){
-            if(i%m){
-                num1+=i;
-            }
-            else
-                num2+=i;
-        }
-        return num1-num2;
+        long long sumk,sigma;
+        int k=floor(float(n/m));
+        sigma=n*(n+1)/2;
+        sumk=m*(k*(k+1)/2);
+        return sigma-2*sumk;
     }
 };
