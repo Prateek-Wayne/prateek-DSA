@@ -272,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0257-binary-tree-paths) |
+| [0386-lexicographical-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0437-path-sum-iii) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -623,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0014-longest-common-prefix) |
+| [0386-lexicographical-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0386-lexicographical-numbers) |
 ## String Matching
 |  |
 | ------- |
