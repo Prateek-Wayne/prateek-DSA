@@ -10,15 +10,14 @@ struct Node
 class Solution {
   public:
     // Function to count nodes of a linked list.
-    int getCount(struct Node* head) {
-
-        // Code here
-        int count=0;
-        Node *node=head;
-        while(node){
-            node=node->next;
-            count++;
+    int helper(struct Node *temp){
+        if(temp){
+            return 1+helper(temp->next);
         }
-        return count;
+        return 0;
+    }
+    int getCount(struct Node* head) {
+    return helper(head);
+    
     }
 };
