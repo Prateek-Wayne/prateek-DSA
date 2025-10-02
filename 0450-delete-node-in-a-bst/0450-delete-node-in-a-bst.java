@@ -26,12 +26,14 @@ class Solution {
                 // move left;
                 if (temp.left != null && temp.left.val == key) {
                     temp.left = helper(temp.left);
+                    break;
                 } else
                     temp = temp.left;
             } else {
                 // move right;
                 if (temp.right != null && temp.right.val == key) {
                     temp.right = helper(temp.right);
+                    break;
                 } else
                     temp = temp.right;
             }
@@ -45,16 +47,15 @@ class Solution {
             return root.right;
         else if (root.right == null)
             return root.left;
-        TreeNode rightNode = root.right;
-        TreeNode lastRightNode = lastRightNodeFinder(root.left);
-        lastRightNode.right = rightNode;
-        return root.left;
+        TreeNode leftNode = root.left;
+        TreeNode rightNode = findLeftMostLeadNode(root.right);
+        rightNode.left = leftNode;
+        return root.right;
     }
 
-    private TreeNode lastRightNodeFinder(TreeNode root) {
-        if (root.right == null)
+    private TreeNode findLeftMostLeadNode(TreeNode root) {
+        if (root.left == null)
             return root;
-        return lastRightNodeFinder(root.right);
-
+        return findLeftMostLeadNode(root.left);
     }
 }
