@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0494-target-sum) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0658-find-k-closest-elements) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -440,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0658-find-k-closest-elements) |
@@ -465,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0073-set-matrix-zeroes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0945-snakes-and-ladders](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -548,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0658-find-k-closest-elements) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
