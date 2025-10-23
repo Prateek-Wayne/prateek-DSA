@@ -1,20 +1,20 @@
 class Solution {
-static void helper(int[] nums, int index, List<Integer> ds, List<List<Integer>> ans) {
+static void helper(int[] nums, List<Integer> ds, List<List<Integer>> ans, int index) {
         if (index == nums.length) {
             ans.add(new ArrayList<>(ds));
             return;
         }
-        // pick
         ds.add(nums[index]);
-        helper(nums, index + 1, ds, ans);
+        helper(nums, ds, ans, index + 1);
         ds.removeLast();
-        helper(nums, index + 1, ds, ans);
+        helper(nums, ds, ans, index + 1);
     }
 
     public static List<List<Integer>> subsets(int[] nums) {
-        List<Integer> ds = new ArrayList<>();
         List<List<Integer>> ans = new ArrayList<>();
-        helper(nums, 0, ds, ans);
+        List<Integer> ds = new ArrayList<>();
+        helper(nums, ds, ans, 0);
         return ans;
+
     }
 }
