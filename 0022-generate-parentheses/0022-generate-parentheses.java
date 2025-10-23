@@ -1,5 +1,6 @@
 class Solution {
-   static void helper(StringBuffer ds, int n, int close, int open, List<String> ans) {
+
+    static void helper(StringBuilder ds, int n, int close, int open, List<String> ans) {
         if (ds.length() == 2 * n) {
             ans.add(ds.toString());
             return;
@@ -22,7 +23,7 @@ class Solution {
 
     public static List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
-        StringBuffer ds = new StringBuffer();
+        StringBuilder ds = new StringBuilder();
         ds.append('(');
         helper(ds, n, 0, 1, ans);
         return ans;
