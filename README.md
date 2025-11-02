@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0806-domino-and-tromino-tiling) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0967-minimum-falling-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1013-fibonacci-number) |
 | [1170-shortest-common-supersequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1250-longest-common-subsequence) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0907-koko-eating-bananas) |
 | [0945-snakes-and-ladders](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0945-snakes-and-ladders) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
+| [0967-minimum-falling-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -485,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0945-snakes-and-ladders](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0945-snakes-and-ladders) |
+| [0967-minimum-falling-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
