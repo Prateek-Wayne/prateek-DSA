@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2262-solving-questions-with-brainpower](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2215-finding-3-digit-even-numbers) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -534,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2288-count-operations-to-obtain-zero) |
 | [2551-apply-operations-to-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2551-apply-operations-to-an-array) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
