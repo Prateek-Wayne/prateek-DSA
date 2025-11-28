@@ -1,18 +1,14 @@
 class Solution {
-  public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> mp = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> mp = new HashMap<>();
+        mp.put(nums[0], 0);
+        for (int i = 1; i < nums.length; i++) {
+            int r = target - nums[i];
+            if (mp.containsKey(r)) {
+                return new int[] { mp.get(r), i };
+            }
             mp.put(nums[i], i);
         }
-        int[] ans = new int[2];
-        for (int i = 0; i < nums.length; i++) {
-            int toFind = target - nums[i];
-            if (mp.containsKey(toFind) && mp.get(toFind) != i) {
-                int first = i;
-                int second = mp.get(toFind);
-                return new int[] { first, second };
-            }
-        }
-        return ans;
+        return new int[] { -1, -1 };
     }
 }
