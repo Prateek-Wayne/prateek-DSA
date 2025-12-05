@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3321-type-of-triangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3430-count-days-without-meetings) |
+| [3432-count-partitions-with-even-sum-difference](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -591,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2102-find-the-middle-index-in-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2358-number-of-ways-to-split-array) |
 | [2915-count-of-interesting-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2915-count-of-interesting-subarrays) |
+| [3432-count-partitions-with-even-sum-difference](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
@@ -725,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3201-distribute-candies-among-children-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3201-distribute-candies-among-children-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3321-type-of-triangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3321-type-of-triangle) |
+| [3432-count-partitions-with-even-sum-difference](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
