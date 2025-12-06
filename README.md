@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0322-coin-change](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -529,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0073-set-matrix-zeroes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0945-snakes-and-ladders](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0967-minimum-falling-path-sum) |
@@ -582,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
@@ -744,6 +747,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0838-design-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0838-design-linked-list) |
 ## Doubly-Linked List
 |  |
