@@ -1,17 +1,17 @@
 class Solution {
     public int majorityElement(int[] nums) {
         int ele=nums[0];
-        int sum=1;
-        for(int i=1;i<nums.length;i++){
-            if(nums[i]==ele){
-                sum++;
-            }
+        int count=1;
+        for(int i:nums){
+            if(i==ele)
+                count++;
             else{
-                if(sum==0){
-                    ele=nums[i];
-                    sum++;
+                if(i!=ele)
+                    count--;
+                if(count==0){
+                    ele=i;
+                    count=1;
                 }
-                sum--;
             }
         }
         return ele;
