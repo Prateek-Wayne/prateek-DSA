@@ -1,60 +1,48 @@
-class MyQueue {
 
-    Stack<Integer> stack1;
-    Stack<Integer> stack2;
+class MyQueue {
+    Stack<Integer> s1;
+    Stack<Integer> s2;
 
     public MyQueue() {
-        this.stack1 = new Stack<>();
-        this.stack2 = new Stack<>();
+        s1 = new Stack<>();
+        s2 = new Stack<>();
     }
 
     public void push(int x) {
-        stack1.add(x);
+        s1.add(x);
     }
 
     public int pop() {
-        if (!empty()) {
-            int n = stack1.size();
-
-            for (int i = 0; i < n - 1; i++) {
-                stack2.add(stack1.pop());
-            }
-            int ans = stack1.pop();
-            while (!stack2.isEmpty()) {
-                stack1.add(stack2.pop());
-            }
-            return ans;
+        if (empty())
+            return -1;
+        int ans;
+        while (s1.size() != 1) {
+            s2.add(s1.pop());
         }
-        return -1;
+        ans = s1.pop();
+        while (!s2.isEmpty()) {
+            s1.add(s2.pop());
+        }
+        return ans;
     }
 
     public int peek() {
-        if (!empty()) {
-            int n = stack1.size();
-
-            for (int i = 0; i < n - 1; i++) {
-                stack2.add(stack1.pop());
-            }
-            int ans = stack1.peek();
-            stack2.add(stack1.pop());
-            while (!stack2.isEmpty()) {
-                stack1.add(stack2.pop());
-            }
-            return ans;
+        if (empty())
+            return -1;
+        int ans;
+        while (s1.size() != 1) {
+            s2.add(s1.pop());
         }
-        return -1;
+        ans = s1.pop();
+        s2.add(ans);
+        while (!s2.isEmpty()) {
+            s1.add(s2.pop());
+        }
+        return ans;
     }
 
     public boolean empty() {
-        return stack1.isEmpty();
+        return s1.isEmpty();
+
     }
 }
-
-/**
- * Your MyQueue object will be instantiated and called as such:
- * MyQueue obj = new MyQueue();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.peek();
- * boolean param_4 = obj.empty();
- */
