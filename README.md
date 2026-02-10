@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2653-sliding-subarray-beauty](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2653-sliding-subarray-beauty) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2653-sliding-subarray-beauty](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2653-sliding-subarray-beauty) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -600,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2478-longest-nice-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2478-longest-nice-subarray) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2653-sliding-subarray-beauty](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2653-sliding-subarray-beauty) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
