@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0474-ones-and-zeroes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0474-ones-and-zeroes) |
 | [0516-longest-palindromic-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0516-longest-palindromic-subsequence) |
+| [0567-permutation-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0768-partition-labels](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0812-rotate-string) |
@@ -442,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0797-rabbits-in-forest) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -600,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
@@ -723,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0283-move-zeroes) |
+| [0567-permutation-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0658-find-k-closest-elements) |
 | [0768-partition-labels](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0908-middle-of-the-linked-list) |
