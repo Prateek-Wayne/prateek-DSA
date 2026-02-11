@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3227-find-missing-and-repeated-values) |
+| [3255-find-the-power-of-k-size-subarrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3255-find-the-power-of-k-size-subarrays-ii) |
 | [3321-type-of-triangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3430-count-days-without-meetings) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3432-count-partitions-with-even-sum-difference) |
@@ -620,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2653-sliding-subarray-beauty](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2653-sliding-subarray-beauty) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3255-find-the-power-of-k-size-subarrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3255-find-the-power-of-k-size-subarrays-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
