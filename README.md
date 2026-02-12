@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0945-snakes-and-ladders) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0967-minimum-falling-path-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
@@ -541,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0907-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -609,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -634,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
