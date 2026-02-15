@@ -1,53 +1,32 @@
+class Pair {
+    int first;
+    int second;
 
-class Pairs {
-    Integer first;
-    Integer second;
-
-    Pairs(Integer x, Integer y) {
-        this.first = x;
-        this.second = y;
+    Pair(int first, int second) {
+        this.first = first;
+        this.second = second;
     }
-
-    public Integer getFirst() {
-        return first;
-    }
-
-    public Integer getSecond() {
-        return second;
-    }
-
 }
 
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-         HashMap<Integer, Integer> mp = new HashMap<>();
-        for (int num : nums) {
-            mp.put(num, mp.getOrDefault(num, 0) + 1);
+        PriorityQueue<Pair> minHeap = new PriorityQueue<>((a, b) -> a.second - b.second);
+        HashMap<Integer, Integer> mp = new HashMap<>();
+        for (int i : nums) {
+            mp.put(i, mp.getOrDefault(i, 0) + 1);
         }
-
-        PriorityQueue<Pairs> minHeap = new PriorityQueue<>((a, b) -> {
-            if (b.getSecond() == a.getSecond()) {
-                return a.getFirst() - b.getFirst();
-            }
-            return a.getSecond() - b.getSecond();
-        });
-        // for (Map.Entry<KeyType, ValueType> entry : map.entrySet()) to get both key
-        // and value.
-        // for (KeyType key : map.keySet()) to get keys.
-        // for (ValueType value : map.values()) to get values.
-        for (Map.Entry<Integer, Integer> entry : mp.entrySet()) {
-            Pairs temp = new Pairs(entry.getKey(), entry.getValue());
-            minHeap.add(temp);
-            if (minHeap.size() > k) {
+        mp.forEach((key, value) -> {
+            minHeap.add(new Pair(key, value));
+            if (minHeap.size() > k)
                 minHeap.poll();
-            }
+        });
+        int[] arr = new int[minHeap.size()];
+        int counter = 0;
+        while (!minHeap.isEmpty()) {
+            arr[counter] = minHeap.poll().first;
+            counter++;
+
         }
-        int[] ans = new int[k];
-        int i = 0;
-        while (minHeap.size() > 0) {
-            ans[i] = minHeap.poll().first;
-            i++;
-        }
-        return ans;
+        return arr;
     }
 }
