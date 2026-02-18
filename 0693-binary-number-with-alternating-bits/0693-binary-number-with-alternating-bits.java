@@ -3,14 +3,10 @@ class Solution {
         int prev=n&1;
         n=n>>1;
         while(n!=0){
-            if(((n&1) == 0) && (prev!=1))
-            {
+            int curr=n&1;
+            if(prev==curr)
                 return false;
-            }
-            else if(((n&1) == 1) && (prev!=0)){
-                return false;
-            }
-            prev=n&1;
+            prev=curr;
             n=n>>1;
         }
         return true;
