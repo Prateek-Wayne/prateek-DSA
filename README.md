@@ -668,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0268-missing-number) |
+| [0693-binary-number-with-alternating-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0693-binary-number-with-alternating-bits) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
