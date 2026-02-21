@@ -1,28 +1,32 @@
 class Solution {
- static void helper(List<String> ans, StringBuffer ds, int n) {
-        if (ds.length() == n) {
-            ans.add(ds.toString());
+List<String> ans = new ArrayList<>();
+
+    void helper(StringBuilder s, int n) {
+        if (s.length() == n) {
+            ans.add(s.toString());
             return;
         }
-        if (ds.charAt(ds.length() - 1) == '1') {
-            ds.append('0');
-            helper(ans, ds, n);
-            ds.deleteCharAt(ds.length() - 1);
-            ds.append('1');
-            helper(ans, ds, n);
-            ds.deleteCharAt(ds.length() - 1);
-        } else {
-            ds.append('1');
-            helper(ans, ds, n);
-            ds.deleteCharAt(ds.length() - 1);
+        //
+        int size = s.length();
+        if (s.charAt(size - 1) == '0') {
+            s.append('1');
+            helper(s, n);
+            s.deleteCharAt(s.length() - 1);
         }
+        if (s.charAt(size - 1) == '1') {
+            s.append('0');
+            helper(s, n);
+            s.deleteCharAt(s.length() - 1);
+            s.append('1');
+            helper(s, n);
+            s.deleteCharAt(s.length() - 1);
+        }
+        return;
     }
 
-    public static List<String> validStrings(int n) {
-        List<String> ans = new ArrayList<>();
-        helper(ans, new StringBuffer("0"), n);
-        helper(ans, new StringBuffer("1"), n);
-
+    public List<String> validStrings(int n) {
+        helper(new StringBuilder("0"), n);
+        helper(new StringBuilder("1"), n);
         return ans;
     }
 }
