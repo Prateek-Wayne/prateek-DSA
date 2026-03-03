@@ -1,32 +1,40 @@
 class Solution {
-    public int minSwaps(int[][] grid) {
+public static int minSwaps(int[][] grid) {
         int n = grid.length;
-        int[] zeros = new int[n];
+        int[] zeroes = new int[n];
         for (int i = 0; i < n; i++) {
-            int count = 0;
-            for (int j = n - 1; j >= 0 && grid[i][j] == 0; j--) {
-                count++;
+            int countOfZeroes = 0;
+            for (int j = n - 1; j >= 0; j--) {
+                if (grid[i][j] == 0) {
+                    countOfZeroes++;
+                } else {
+                    break;
+                }
             }
-            zeros[i] = count;
+            zeroes[i] = countOfZeroes;
         }
-
-        int swaps = 0;
-
-        for (int i = 0; i < n; i++) {
-            int needed = n - i - 1;
-            int j = i;
-            while (j < n && zeros[j] < needed) j++;
-
-            if (j == n) return -1;
+        int steps = 0;
+        for (int i = 0; i < zeroes.length; i++) {
+            int requiredZeros = n - i - 1;
+            if (zeroes[i] >= requiredZeros)
+                continue;
+            int j = i + 1;
+            for (; j < n; j++) {
+                if (zeroes[j] >= requiredZeros) {
+                    break;
+                }
+            }
+            if (j == n)
+                return -1;
+            steps += (j - i);
+            // Replace the swap section with:
             while (j > i) {
-                int temp = zeros[j];
-                zeros[j] = zeros[j - 1];
-                zeros[j - 1] = temp;
+                int temp = zeroes[j];
+                zeroes[j] = zeroes[j - 1];
+                zeroes[j - 1] = temp;
                 j--;
-                swaps++;
             }
         }
-
-        return swaps;
+        return steps;
     }
 }
