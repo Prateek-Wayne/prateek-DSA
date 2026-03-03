@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -617,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0067-add-binary) |
 | [0735-asteroid-collision](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0735-asteroid-collision) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2048-build-array-from-permutation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2048-build-array-from-permutation) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -804,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1013-fibonacci-number) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [2050-count-good-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2050-count-good-numbers) |
 ## Math
 |  |
