@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0583-delete-operation-for-two-strings) |
+| [0741-cherry-pickup](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0741-cherry-pickup) |
 | [0806-domino-and-tromino-tiling](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0806-domino-and-tromino-tiling) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-sum-of-subarray-minimums](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0907-sum-of-subarray-minimums) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0704-binary-search) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0735-asteroid-collision](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0735-asteroid-collision) |
+| [0741-cherry-pickup](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0741-cherry-pickup) |
 | [0759-set-intersection-size-at-least-two](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0759-set-intersection-size-at-least-two) |
 | [0792-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0797-rabbits-in-forest) |
@@ -598,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0741-cherry-pickup](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0741-cherry-pickup) |
 | [0945-snakes-and-ladders](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
