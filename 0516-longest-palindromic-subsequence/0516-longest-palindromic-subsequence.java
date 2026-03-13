@@ -1,26 +1,31 @@
 class Solution {
-    int helper(String s1,String s2,int i,int j,Integer[][] dp){
-        if(i<0 || j<0)
+  int helper(String s1, String s2, int index1, int index2, int[][] dp) {
+        if (index1 < 0 || index2 < 0)
             return 0;
-        if(dp[i][j]!=null)
-            return dp[i][j];
-        // Pick;
-        int pick=0;
-        if(s1.charAt(i)==s2.charAt(j)){
-            pick=1+helper(s1,s2,i-1,j-1,dp);
-        }
-        int notPick=0+Math.max(helper(s1,s2,i-1,j,dp),helper(s1,s2,i,j-1,dp));
-        return dp[i][j]= Math.max(pick,notPick);
+        // pick...
+        if (s1.charAt(index1) == s2.charAt(index2))
+            return 1 + helper(s1, s2, index1 - 1, index2 - 1, dp);
+        if (dp[index1][index2] != -1)
+            return dp[index1][index2];
+        int left = helper(s1, s2, index1 - 1, index2, dp);
+        int right = helper(s1, s2, index1, index2 - 1, dp);
+        return dp[index1][index2] = Math.max(left, right);
+
     }
 
-
-
     public int longestPalindromeSubseq(String s) {
-        int n=s.length();
-        int m=s.length();
-        Integer[][] dp=new Integer[n+1][m+1];
-        String s2 = new StringBuilder(s).reverse().toString();
-        return helper(s,s2,n-1,m-1,dp);
-        
+        int index = s.length();
+        String s2 = new String("");
+        for (int i = index - 1; i >= 0; i--) {
+            s2 += s.charAt(i);
+        }
+        int[][] dp = new int[index + 1][index + 1];
+        for (int i = 0; i <= index; i++) {
+            int[] temp = new int[index + 1];
+            Arrays.fill(temp, -1);
+            dp[i] = temp;
+        }
+        return helper(s, s2, index - 1, index - 1, dp);
+
     }
 }
