@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0067-add-binary) |
+| [0072-edit-distance](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0115-distinct-subsequences) |
 | [0151-reverse-words-in-a-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0205-isomorphic-strings) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0118-pascals-triangle) |
