@@ -859,6 +859,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1015-smallest-integer-divisible-by-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1500-count-largest-group) |
+| [1622-fancy-sequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1622-fancy-sequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
@@ -894,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0460-lfu-cache](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0460-lfu-cache) |
 | [0838-design-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0838-design-linked-list) |
+| [1622-fancy-sequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1622-fancy-sequence) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -1021,6 +1023,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [1622-fancy-sequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1622-fancy-sequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
 ## Merge Sort
 |  |
