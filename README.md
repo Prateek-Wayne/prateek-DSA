@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1646-kth-missing-positive-number) |
 | [1677-matrix-diagonal-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1677-matrix-diagonal-sum) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1833-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1833-find-the-highest-altitude) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [2032-largest-odd-number-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -560,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -633,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1677-matrix-diagonal-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1677-matrix-diagonal-sum) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
