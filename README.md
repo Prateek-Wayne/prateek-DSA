@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2888-minimum-index-of-a-valid-split) |
+| [2906-construct-product-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2906-construct-product-matrix) |
 | [2915-count-of-interesting-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2915-count-of-interesting-subarrays) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3001-apply-operations-to-maximize-score) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -670,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2906-construct-product-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3227-find-missing-and-repeated-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3227-find-missing-and-repeated-values) |
@@ -757,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2102-find-the-middle-index-in-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2358-number-of-ways-to-split-array) |
+| [2906-construct-product-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2906-construct-product-matrix) |
 | [2915-count-of-interesting-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2915-count-of-interesting-subarrays) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
