@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3194-find-words-containing-character) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3637-count-number-of-balanced-permutations) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Stack
@@ -1005,6 +1007,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0812-rotate-string) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3474-lexicographically-smallest-generated-string) |
 ## Bucket Sort
 |  |
 | ------- |
