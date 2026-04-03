@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3637-count-number-of-balanced-permutations) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Array
 |  |
 | ------- |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-flip-square-submatrix-vertically](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3643-flip-square-submatrix-vertically) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Greedy
@@ -632,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -674,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2665-minimum-time-to-repair-cars](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2665-minimum-time-to-repair-cars) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Matrix
 |  |
 | ------- |
