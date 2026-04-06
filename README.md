@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0797-rabbits-in-forest) |
 | [0853-car-fleet](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0853-car-fleet) |
+| [0874-walking-robot-simulation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0874-walking-robot-simulation) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0907-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0907-sum-of-subarray-minimums) |
@@ -555,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0797-rabbits-in-forest) |
+| [0874-walking-robot-simulation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0874-walking-robot-simulation) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
@@ -743,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0067-add-binary) |
 | [0657-robot-return-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0657-robot-return-to-origin) |
 | [0735-asteroid-collision](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0735-asteroid-collision) |
+| [0874-walking-robot-simulation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0874-walking-robot-simulation) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
