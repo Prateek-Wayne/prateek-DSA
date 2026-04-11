@@ -14,33 +14,16 @@
  * }
  */
 class Solution {
- void traverse(TreeNode root, TreeNode subRoot, List<TreeNode> nodes) {
-        if (root == null)
-            return;
-        traverse(root.left, subRoot, nodes);
-        if (root.val == subRoot.val)
-            nodes.add(root);
-        traverse(root.right, subRoot, nodes);
-
-    }
-
-    boolean checkIsSubTree(TreeNode root, TreeNode subRoot) {
-        if (root == null && subRoot == null)
-            return true;
-        if (root == null || subRoot == null)
-            return false;
-        if (root.val != subRoot.val)
-            return false;
-        return checkIsSubTree(root.left, subRoot.left) && checkIsSubTree(root.right, subRoot.right);
+    String serialise(TreeNode root) {
+        if (root == null) {
+            return "#";
+        }
+        return "," + root.val + "," + serialise(root.left) + "," + serialise(root.right);
     }
 
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        List<TreeNode> nodes = new ArrayList<>();
-        traverse(root, subRoot, nodes);
-        for (TreeNode i : nodes) {
-            if (checkIsSubTree(i, subRoot) == true)
-                return true;
-        }
-        return false;
+        String s1 = serialise(root);
+        String s2 = serialise(subRoot);
+        return s1.contains(s2);
     }
 }
