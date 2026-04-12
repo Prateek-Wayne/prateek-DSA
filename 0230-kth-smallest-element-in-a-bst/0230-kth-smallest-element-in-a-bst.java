@@ -14,26 +14,19 @@
  * }
  */
 class Solution {
-int ans = 0;
-    int count = 0;
-
-    void inOrder(TreeNode root, int k) {
+ void dfs(TreeNode root, int k, PriorityQueue<Integer> pq) {
         if (root == null)
             return;
-
-        inOrder(root.left, k);
-        count++;
-        if (count == k) {
-            ans = root.val;
-            return;
-        }
-        inOrder(root.right, k);
+        pq.add(root.val);
+        if (pq.size() > k)
+            pq.poll();
+        dfs(root.left, k, pq);
+        dfs(root.right, k, pq);
     }
 
     public int kthSmallest(TreeNode root, int k) {
-
-        inOrder(root, k);
-
-        return ans;
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+        dfs(root, k, pq);
+        return pq.size() > 0 ? pq.peek() : -1;
     }
 }
