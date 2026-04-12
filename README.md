@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-binary-prefix-divisible-by-5](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1046-last-stone-weight](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-last-stone-weight) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -898,6 +899,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0743-network-delay-time) |
 | [0973-k-closest-points-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1046-last-stone-weight](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-last-stone-weight) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2681-put-marbles-in-bags) |
