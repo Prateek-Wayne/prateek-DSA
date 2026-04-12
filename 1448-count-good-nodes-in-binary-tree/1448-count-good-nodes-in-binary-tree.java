@@ -14,21 +14,20 @@
  * }
  */
 class Solution {
- void dfs(TreeNode root, int[] count, PriorityQueue<Integer> pq) {
+ int dfs(TreeNode root, int maxy) {
         if (root == null)
-            return;
-        pq.add(root.val);
-        if (pq.peek() <= root.val)
-            count[0]++;
-        dfs(root.left, count, pq);
-        dfs(root.right, count, pq);
-        pq.remove(root.val);
+            return 0;
+        int count = 0;
+        if (root.val >= maxy) {
+            count = 1;
+            maxy = root.val;
+        }
+        count += dfs(root.left, maxy);
+        count += dfs(root.right, maxy);
+        return count;
     }
 
     public int goodNodes(TreeNode root) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
-        int[] count = new int[] { 0 };
-        dfs(root, count, pq);
-        return count[0];
+        return dfs(root, Integer.MIN_VALUE);
     }
 }
