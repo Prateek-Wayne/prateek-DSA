@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-  public List<Integer> rightSideView(TreeNode root) {
+    public List<Integer> rightSideView(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         if (root == null)
             return ans;
@@ -22,17 +22,17 @@ class Solution {
         q.add(root);
         while (!q.isEmpty()) {
             int size = q.size();
-            List<Integer> temp = new ArrayList<>();
+            int lastVal = 0;
             while (size != 0) {
                 TreeNode top = q.poll();
-                temp.add(top.val);
+                lastVal = top.val;
                 if (top.left != null)
                     q.add(top.left);
                 if (top.right != null)
                     q.add(top.right);
                 size--;
             }
-            ans.add(temp.getLast());
+            ans.add(lastVal);
         }
         return ans;
     }
