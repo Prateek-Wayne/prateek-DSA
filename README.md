@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0115-distinct-subsequences) |
 | [0151-reverse-words-in-a-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0205-isomorphic-strings) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0085-maximal-rectangle) |
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0100-same-tree) |
@@ -725,6 +728,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0085-maximal-rectangle) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
@@ -1114,6 +1118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0494-target-sum) |
