@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0115-distinct-subsequences) |
+| [0131-palindrome-partitioning](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0242-valid-anagram) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0131-palindrome-partitioning](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0198-house-robber) |
@@ -1121,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0494-target-sum) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
