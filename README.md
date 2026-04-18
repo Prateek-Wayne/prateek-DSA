@@ -1048,6 +1048,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3637-count-number-of-balanced-permutations) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3783-mirror-distance-of-an-integer](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3783-mirror-distance-of-an-integer) |
 ## Design
 |  |
 | ------- |
