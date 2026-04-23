@@ -310,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2615-sum-of-distances](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2615-sum-of-distances) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2653-sliding-subarray-beauty](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2653-sliding-subarray-beauty) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2665-minimum-time-to-repair-cars) |
@@ -635,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2615-sum-of-distances](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2615-sum-of-distances) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2653-sliding-subarray-beauty](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2653-sliding-subarray-beauty) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -877,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2102-find-the-middle-index-in-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2358-number-of-ways-to-split-array) |
+| [2615-sum-of-distances](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2615-sum-of-distances) |
 | [2906-construct-product-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2906-construct-product-matrix) |
 | [2915-count-of-interesting-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2915-count-of-interesting-subarrays) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
