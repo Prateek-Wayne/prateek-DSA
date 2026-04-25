@@ -1,10 +1,15 @@
 class Solution {
+
     int helper(int n, int[] dp) {
-        if (n == 1 || n == 2)
-            return n;
+        if (n == 0)
+            return 0;
         if (dp[n] != -1)
             return dp[n];
-        return dp[n] = helper(n - 1, dp) + helper(n - 2, dp);
+        if (n == 1 || n == 2)
+            return dp[n] = n;
+        int left = helper(n - 1,dp);
+        int right = helper(n - 2,dp);
+        return dp[n] = left + right;
     }
 
     public int climbStairs(int n) {
