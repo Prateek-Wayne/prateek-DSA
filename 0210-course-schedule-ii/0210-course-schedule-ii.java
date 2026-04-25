@@ -1,46 +1,38 @@
 class Solution {
-    boolean dfs(List<List<Integer>> adj, boolean[] vis, boolean[] path, int curr, Stack<Integer> st) {
-        vis[curr] = true;
-        path[curr] = true;
-
-        for (Integer i : adj.get(curr)) {
-            if (!vis[i]) {
-                if (dfs(adj, vis, path, i, st))
-                    return true;
-            } else if (path[i]) {
-                return true;
-            }
-        }
-        st.add(curr);
-        path[curr] = false;
-        return false;
-    }
-
     public int[] findOrder(int numCourses, int[][] prerequisites) {
+        int[] inDegree = new int[numCourses];
         List<List<Integer>> adj = new ArrayList<>();
+        Queue<Integer> q = new LinkedList<>();
+        int[] ans = new int[numCourses];
+        int course = 0;
+
+        // ........................................................
         for (int i = 0; i < numCourses; i++) {
             adj.add(new ArrayList<>());
         }
         for (int[] arr : prerequisites) {
             adj.get(arr[1]).add(arr[0]);
+            inDegree[arr[0]]++;
         }
-        boolean[] vis = new boolean[numCourses];
-        boolean[] path = new boolean[numCourses];
-        Stack<Integer> st = new Stack<>();
         for (int i = 0; i < numCourses; i++) {
-            if (!vis[i]) {
-                if (dfs(adj, vis, path, i, st))
-                    return new int[] {};
+            if (inDegree[i] == 0) {
+                q.add(i);
             }
         }
-
-        int[] ans = new int[numCourses];
-        int ind = 0;
-        while (!st.isEmpty()) {
-            ans[ind] = st.pop();
-            ind++;
+        while (!q.isEmpty()) {
+            int u = q.poll();
+            ans[course] = u;
+            course++;
+            for (Integer v : adj.get(u)) {
+                inDegree[v]--;
+                if (inDegree[v] == 0) {
+                    q.add(v);
+                }
+            }
         }
+        if (course != numCourses)
+            return new int[] {};
         return ans;
-
     }
+
 }
