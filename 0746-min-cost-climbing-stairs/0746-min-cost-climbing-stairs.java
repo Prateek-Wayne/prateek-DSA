@@ -1,22 +1,20 @@
 class Solution {
-    int helper(int i, int[] cost, int[] dp) {
-        if (i <= 1)
-            return 0; // base: start from 0 or 1
 
+    int helper(int[] cost, int i, int[] dp) {
+        if (i >= cost.length) {
+            return 0;
+        }
         if (dp[i] != -1)
             return dp[i];
-
-        int oneStep = helper(i - 1, cost, dp) + cost[i - 1];
-        int twoStep = helper(i - 2, cost, dp) + cost[i - 2];
-
-        return dp[i] = Math.min(oneStep, twoStep);
+        int left = cost[i] + helper(cost, i + 1, dp);
+        int right = cost[i] + helper(cost, i + 2, dp);
+        return dp[i] =Math.min(left, right);
     }
 
     public int minCostClimbingStairs(int[] cost) {
-        int n = cost.length;
-        int[] dp = new int[n + 1];
-        Arrays.fill(dp, -1);
-
-        return helper(n, cost, dp);
+        int n=cost.length;
+        int[] dp=new int[n];
+        Arrays.fill(dp,-1);
+        return Math.min(helper(cost,0,dp) , helper(cost,1,dp));
     }
 }
