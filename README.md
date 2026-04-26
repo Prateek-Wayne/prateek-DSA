@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1603-running-sum-of-1d-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1603-running-sum-of-1d-array) |
@@ -498,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
@@ -572,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -779,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1036-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1677-matrix-diagonal-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1677-matrix-diagonal-sum) |
@@ -1288,6 +1292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0695-max-area-of-island) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0990-satisfiability-of-equality-equations) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 ## Graph Theory
 |  |
 | ------- |
