@@ -1,45 +1,40 @@
 class Solution {
-    public boolean hasValidPath(int[][] grid) {
-        int m = grid.length, n = grid[0].length;
+ Map<Integer, int[][]> mp = new HashMap<>();
 
-        int[][][] dir = new int[7][][];
-
-        dir[1] = new int[][]{{0,-1},{0,1}};
-        dir[2] = new int[][]{{-1,0},{1,0}};
-        dir[3] = new int[][]{{0,-1},{1,0}};
-        dir[4] = new int[][]{{0,1},{1,0}};
-        dir[5] = new int[][]{{0,-1},{-1,0}};
-        dir[6] = new int[][]{{0,1},{-1,0}};
-
-        boolean[][] vis = new boolean[m][n];
-        Queue<int[]> q = new LinkedList<>();
-
-        q.offer(new int[]{0,0});
-        vis[0][0] = true;
-
-        while(!q.isEmpty()){
-            int[] cur = q.poll();
-            int r = cur[0], c = cur[1];
-
-            if(r == m-1 && c == n-1)
-                return true;
-
-            for(int[] move : dir[grid[r][c]]){
-                int nr = r + move[0];
-                int nc = c + move[1];
-
-                if(nr<0 || nc<0 || nr>=m || nc>=n || vis[nr][nc])
-                    continue;
-
-                for(int[] back : dir[grid[nr][nc]]){
-                    if(nr + back[0] == r && nc + back[1] == c){
-                        vis[nr][nc] = true;
-                        q.offer(new int[]{nr,nc});
-                    }
+    boolean dfs(int[][] grid, boolean[][] visited, int i, int j) {
+        int m = grid.length;
+        int n = grid[0].length;
+        if (i == m - 1 && j == n - 1)
+            return true;
+        visited[i][j] = true;
+        for (int[] dir : mp.get(grid[i][j])) {
+            int newX = i + dir[0];
+            int newY = j + dir[1];
+            if (newX < 0 || newY < 0 || newX >= m || newY >= n || visited[newX][newY] == true)
+                continue;
+            for (int[] reversedir : mp.get(grid[newX][newY])) {
+                if (newX + reversedir[0] == i && newY + reversedir[1] == j) {
+                    if (dfs(grid, visited, newX, newY))
+                        return true;
                 }
             }
         }
-
         return false;
+    }
+
+    public boolean hasValidPath(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+
+        mp.put(1, new int[][] { { 0, -1 }, { 0, 1 } });
+        mp.put(2, new int[][] { { -1, 0 }, { 1, 0 } });
+        mp.put(3, new int[][] { { 0, -1 }, { 1, 0 } });
+        mp.put(4, new int[][] { { 0, 1 }, { 1, 0 } });
+        mp.put(5, new int[][] { { 0, -1 }, { -1, 0 } });
+        mp.put(6, new int[][] { { 0, 1 }, { -1, 0 } });
+
+        boolean[][] visited = new boolean[m][n];
+        return dfs(grid, visited, 0, 0);
+
     }
 }
