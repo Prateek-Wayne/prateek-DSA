@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3637-count-number-of-balanced-permutations) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Array
 |  |
 | ------- |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Greedy
 |  |
@@ -814,6 +816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3643-flip-square-submatrix-vertically) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Monotonic Stack
 |  |
 | ------- |
