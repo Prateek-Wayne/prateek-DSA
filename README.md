@@ -371,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3623-count-number-of-trapezoids-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3639-zero-array-transformation-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3639-zero-array-transformation-i) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3643-flip-square-submatrix-vertically) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
@@ -601,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Hash Table
@@ -684,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -1124,6 +1127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3637-count-number-of-balanced-permutations) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -1227,6 +1231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0204-count-primes) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2610-closest-prime-numbers-in-range) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3001-apply-operations-to-maximize-score) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Memoization
 |  |
