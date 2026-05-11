@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0338-counting-bits) |
 | [0416-partition-equal-subset-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0494-target-sum) |
@@ -951,6 +952,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0338-counting-bits) |
 | [0693-binary-number-with-alternating-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0693-binary-number-with-alternating-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0868-binary-gap) |
