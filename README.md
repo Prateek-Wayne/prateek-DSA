@@ -296,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1646-kth-missing-positive-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1646-kth-missing-positive-number) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1677-matrix-diagonal-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1677-matrix-diagonal-sum) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0846-hand-of-straights) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
@@ -724,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
