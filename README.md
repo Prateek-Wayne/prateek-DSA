@@ -334,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2478-longest-nice-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2478-longest-nice-subarray) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2540-minimum-common-value](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2540-minimum-common-value) |
 | [2551-apply-operations-to-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2553-separate-the-digits-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -683,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2540-minimum-common-value](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2540-minimum-common-value) |
 | [2615-sum-of-distances](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2615-sum-of-distances) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2653-sliding-subarray-beauty](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2653-sliding-subarray-beauty) |
@@ -794,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1646-kth-missing-positive-number) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
+| [2540-minimum-common-value](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2540-minimum-common-value) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2665-minimum-time-to-repair-cars) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -1083,6 +1086,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2540-minimum-common-value](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2540-minimum-common-value) |
 | [2551-apply-operations-to-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2699-count-the-number-of-fair-pairs) |
