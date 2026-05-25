@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
+| [1871-jump-game-vii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1871-jump-game-vii) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1980-find-unique-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1980-find-unique-binary-string) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1871-jump-game-vii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1871-jump-game-vii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -926,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1871-jump-game-vii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1871-jump-game-vii) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -956,6 +959,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1603-running-sum-of-1d-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1833-find-the-highest-altitude) |
+| [1871-jump-game-vii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1871-jump-game-vii) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2102-find-the-middle-index-in-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2358-number-of-ways-to-split-array) |
