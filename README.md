@@ -369,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3161-block-placement-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3161-block-placement-queries) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3194-find-words-containing-character](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3194-find-words-containing-character) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -817,6 +818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2665-minimum-time-to-repair-cars) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3161-block-placement-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3161-block-placement-queries) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
@@ -1338,11 +1340,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
+| [3161-block-placement-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3161-block-placement-queries) |
 ## Segment Tree
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1622-fancy-sequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
+| [3161-block-placement-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3161-block-placement-queries) |
 ## Merge Sort
 |  |
 | ------- |
