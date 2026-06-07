@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -511,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2384-root-equals-sum-of-children](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2384-root-equals-sum-of-children) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -598,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2384-root-equals-sum-of-children](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2384-root-equals-sum-of-children) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
@@ -702,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1980-find-unique-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1980-find-unique-binary-string) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
