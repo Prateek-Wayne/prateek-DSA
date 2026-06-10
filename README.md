@@ -412,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -449,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Stack
 |  |
@@ -1073,6 +1075,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Quickselect
 |  |
 | ------- |
@@ -1377,6 +1380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1622-fancy-sequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1622-fancy-sequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
 | [3161-block-placement-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3161-block-placement-queries) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Merge Sort
 |  |
 | ------- |
