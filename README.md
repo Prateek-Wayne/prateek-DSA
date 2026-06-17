@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0657-robot-return-to-origin) |
 | [0692-top-k-frequent-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0768-partition-labels) |
+| [0796-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0812-rotate-string) |
 | [0981-time-based-key-value-store](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0981-time-based-key-value-store) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0990-satisfiability-of-equality-equations) |
@@ -1256,6 +1257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0572-subtree-of-another-tree) |
+| [0796-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0812-rotate-string) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3474-lexicographically-smallest-generated-string) |
 ## Bucket Sort
