@@ -1187,6 +1187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1013-fibonacci-number](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1013-fibonacci-number) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1344-angle-between-hands-of-a-clock](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1500-count-largest-group) |
 | [1622-fancy-sequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1622-fancy-sequence) |
