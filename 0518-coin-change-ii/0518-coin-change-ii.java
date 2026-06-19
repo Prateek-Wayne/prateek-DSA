@@ -1,23 +1,27 @@
 class Solution {
-       int helper(int amount, int[] coins, int index, Integer[][] dp) {
-        if (index == 0) {
-            if (amount % coins[index] == 0)
-                return 1;
+ public int helper(int[] coins, int amount, int index, int[][] dp) {
+        if (amount < 0 || index < 0)
             return 0;
+        if (amount == 0) {
+            return 1;
         }
-        if (dp[index][amount] != null)
+        // pick...
+        if (dp[index][amount] != -1)
             return dp[index][amount];
         int pick = 0;
-        if (coins[index] <= amount)
-            pick = helper(amount - coins[index], coins, index, dp);
-        int notPick = helper(amount, coins, index - 1, dp);
+        if (coins[index] <= amount) {
+            pick += helper(coins, amount - coins[index], index, dp);
+        }
+        int notPick = helper(coins, amount, index - 1, dp);
         return dp[index][amount] = pick + notPick;
     }
 
     public int change(int amount, int[] coins) {
         int n = coins.length;
-        Integer[][] dp = new Integer[n][amount + 1];
-        return helper(amount, coins, n - 1, dp);
-
+        int[][] dp = new int[n + 1][amount + 1];
+        for (int[] arr : dp) {
+            Arrays.fill(arr, -1);
+        }
+        return helper(coins, amount, n - 1, dp);
     }
 }
