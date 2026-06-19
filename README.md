@@ -314,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1677-matrix-diagonal-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1677-matrix-diagonal-sum) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1732-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1833-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1833-find-the-highest-altitude) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1848-minimum-distance-to-the-target-element) |
@@ -994,6 +995,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1603-running-sum-of-1d-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1732-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1732-find-the-highest-altitude) |
 | [1833-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1833-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1871-jump-game-vii) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
