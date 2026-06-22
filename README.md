@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1170-shortest-common-supersequence) |
+| [1189-maximum-number-of-balloons](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1250-longest-common-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
@@ -707,6 +708,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0981-time-based-key-value-store](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0981-time-based-key-value-store) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1189-maximum-number-of-balloons](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -1280,6 +1282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0692-top-k-frequent-words) |
+| [1189-maximum-number-of-balloons](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1189-maximum-number-of-balloons) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
