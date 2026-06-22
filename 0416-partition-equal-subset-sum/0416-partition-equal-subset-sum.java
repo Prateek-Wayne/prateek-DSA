@@ -1,25 +1,32 @@
 class Solution {
- static Boolean helper(int arr[], int sum, int index, Boolean[][] dp) {
-        if (sum == 0)
+  boolean helper(int[] nums, int index, int target, Boolean[][] dp) {
+        if (target == 0) {
             return true;
-        if (index >= arr.length || sum <= 0)
+        }
+        if (index == 0) {
+            if (target == nums[index])
+                return true;
             return false;
-        if (dp[index][sum] != null)
-            return dp[index][sum];
-        boolean left = helper(arr, sum - arr[index], index + 1, dp);
-        boolean right = helper(arr, sum, index + 1, dp);
-        return dp[index][sum] = left || right;
+        }
+        if (dp[index][target] != null)
+            return dp[index][target];
+
+        boolean pick = false;
+        if (nums[index] <= target)
+            pick=helper(nums, index - 1, target - nums[index], dp);
+        boolean notPick = helper(nums, index - 1, target, dp);
+        return dp[index][target] = pick || notPick;
     }
 
     public boolean canPartition(int[] nums) {
-        int sum=0;
-        for(int i:nums)
-            sum+=i;
-        if(sum%2!=0)
+        int sum = 0;
+        int n = nums.length;
+        for (int i : nums)
+            sum += i;
+        if (sum % 2 != 0)
             return false;
-        sum=sum/2;
-        Boolean[][] dp=new Boolean[nums.length][sum+1];
-        return helper(nums, sum, 0, dp);
+        int target = sum / 2;
+        Boolean[][] dp = new Boolean[n + 1][target + 1];
+        return helper(nums, n - 1, target, dp);
     }
-
 }
