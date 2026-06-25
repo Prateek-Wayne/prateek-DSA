@@ -422,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -758,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Sorting
@@ -1028,6 +1030,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3639-zero-array-transformation-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3699-number-of-zigzag-arrays-i) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1073,6 +1076,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3655-xor-after-range-multiplication-queries-ii) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1307,6 +1311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2833-furthest-point-from-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2833-furthest-point-from-origin) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -1410,11 +1415,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
 | [3161-block-placement-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3161-block-placement-queries) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Merge Sort
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0023-merge-k-sorted-lists) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Ordered Set
 |  |
 | ------- |
