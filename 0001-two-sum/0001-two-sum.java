@@ -3,9 +3,9 @@ class Solution {
         HashMap<Integer,Integer> mp=new HashMap<>();
         mp.put(nums[0],0);
         for(int i=1;i<nums.length;i++){
-            int required=target-nums[i];
-            if(mp.get(required)!=null){
-                return new int[]{mp.get(required),i};
+            int req=target-nums[i];
+            if(mp.get(req)!=null){
+                return new int[]{mp.get(req),i};
             }
             mp.put(nums[i],i);
         }
