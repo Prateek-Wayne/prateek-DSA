@@ -1,5 +1,5 @@
 class Solution {
- public List<List<Integer>> threeSum(int[] nums) {
+  public List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> st = new HashSet<>();
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {
