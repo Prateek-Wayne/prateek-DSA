@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1732-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1833-find-the-highest-altitude](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1833-find-the-highest-altitude) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -446,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1903-largest-odd-number-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2078-two-furthest-houses-with-different-colors) |
@@ -796,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2126-destroying-asteroids](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2126-destroying-asteroids) |
