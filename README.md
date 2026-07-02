@@ -400,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3255-find-the-power-of-k-size-subarrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3255-find-the-power-of-k-size-subarrays-ii) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3321-type-of-triangle](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3321-type-of-triangle) |
@@ -676,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
@@ -928,6 +930,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3227-find-missing-and-repeated-values](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3227-find-missing-and-repeated-values) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3546-equal-sum-grid-partition-i) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
@@ -1115,6 +1118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2681-put-marbles-in-bags) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -1416,6 +1420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0743-network-delay-time) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Union Find
 |  |
@@ -1488,6 +1493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0785-is-graph-bipartite) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0990-satisfiability-of-equality-equations) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Data Stream
 |  |
 | ------- |
