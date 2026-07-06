@@ -300,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1288-remove-covered-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1288-remove-covered-intervals) |
 | [1293-three-consecutive-odds](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1293-three-consecutive-odds) |
 | [1301-number-of-paths-with-max-score](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1306-jump-game-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1306-jump-game-iii) |
@@ -814,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1288-remove-covered-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1288-remove-covered-intervals) |
 | [1340-jump-game-v](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1340-jump-game-v) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
