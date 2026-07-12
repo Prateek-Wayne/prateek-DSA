@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0768-partition-labels) |
 | [0796-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0812-rotate-string) |
+| [0848-shifting-letters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0848-shifting-letters) |
 | [0981-time-based-key-value-store](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0981-time-based-key-value-store) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0990-satisfiability-of-equality-equations) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0797-rabbits-in-forest) |
 | [0846-hand-of-straights](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0846-hand-of-straights) |
+| [0848-shifting-letters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0848-shifting-letters) |
 | [0853-car-fleet](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0853-car-fleet) |
 | [0874-walking-robot-simulation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0874-walking-robot-simulation) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -1038,6 +1040,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0848-shifting-letters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0848-shifting-letters) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
