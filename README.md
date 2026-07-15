@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1094-car-pooling](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1094-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1288-remove-covered-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1288-remove-covered-intervals) |
@@ -821,6 +822,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1094-car-pooling](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1094-car-pooling) |
 | [1288-remove-covered-intervals](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1288-remove-covered-intervals) |
 | [1340-jump-game-v](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1340-jump-game-v) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -980,6 +982,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0657-robot-return-to-origin) |
 | [0735-asteroid-collision](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0735-asteroid-collision) |
 | [0874-walking-robot-simulation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0874-walking-robot-simulation) |
+| [1094-car-pooling](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1094-car-pooling) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
@@ -1045,6 +1048,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1094-car-pooling](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1094-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1206-corporate-flight-bookings) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -1137,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0743-network-delay-time) |
 | [0973-k-closest-points-to-origin](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1046-last-stone-weight) |
+| [1094-car-pooling](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1094-car-pooling) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2681-put-marbles-in-bags) |
