@@ -1284,6 +1284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3637-count-number-of-balanced-permutations) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
@@ -1396,6 +1397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2610-closest-prime-numbers-in-range](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2610-closest-prime-numbers-in-range) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3001-apply-operations-to-maximize-score) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Memoization
 |  |
