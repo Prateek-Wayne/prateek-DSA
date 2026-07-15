@@ -879,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0701-insert-into-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0704-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0704-binary-search) |
+| [0732-my-calendar-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0732-my-calendar-iii) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0792-binary-search) |
@@ -1044,6 +1045,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0525-contiguous-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0732-my-calendar-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0732-my-calendar-iii) |
 | [0848-shifting-letters](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0848-shifting-letters) |
 | [0966-binary-subarrays-with-sum](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1004-max-consecutive-ones-iii) |
@@ -1311,6 +1313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0732-my-calendar-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0732-my-calendar-iii) |
 | [0838-design-linked-list](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0838-design-linked-list) |
 | [0981-time-based-key-value-store](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0981-time-based-key-value-store) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1381-design-a-stack-with-increment-operation) |
@@ -1470,6 +1473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0732-my-calendar-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0732-my-calendar-iii) |
 | [1622-fancy-sequence](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/1622-fancy-sequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
 | [3161-block-placement-queries](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/3161-block-placement-queries) |
@@ -1484,6 +1488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0732-my-calendar-iii](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/0732-my-calendar-iii) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Prateek-Wayne/prateek-DSA/tree/master/2280-count-good-triplets-in-an-array) |
 ## Monotonic Queue
 |  |
